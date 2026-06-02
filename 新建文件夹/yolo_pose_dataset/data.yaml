@@ -1,0 +1,17 @@
+# YOLOv8-Pose 守门员关键点检测
+path: C:/Users/chen3/Desktop/ok/新建文件夹/yolo_pose_dataset
+
+train: images/train
+val: images/val
+
+kpt_shape: [9, 3]  # 9个关键点，每个 (x, y, visibility)
+
+# 左右翻转对称索引
+# 0-head, 1-shoulder-left, 2-shoulder-right
+# 3-hand-left, 4-hand-right
+# 5-knee-left, 6-knee-right
+# 7-foot-left, 8-foot-right
+flip_idx: [0, 2, 1, 4, 3, 6, 5, 8, 7]
+
+names:
+  0: goalkeeper

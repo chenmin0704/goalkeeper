@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "2764136710a8e973f4e48468ad9e2cf1",
+        "name": "frame_00069.jpg",
+        "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00069.jpg",
+        "size": {
+            "width": 1260,
+            "height": 1344
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "avYI7i4MdD",
+            "type": "RECTANGLE",
+            "tags": [
+                "gialkeeper"
+            ],
+            "boundingBox": {
+                "height": 66.54390445214435,
+                "width": 43.124985694885254,
+                "left": 3.222684860229492,
+                "top": 806.0251618070083
+            },
+            "points": [
+                {
+                    "x": 3.222684860229492,
+                    "y": 806.0251618070083
+                },
+                {
+                    "x": 46.347670555114746,
+                    "y": 806.0251618070083
+                },
+                {
+                    "x": 46.347670555114746,
+                    "y": 872.5690662591527
+                },
+                {
+                    "x": 3.222684860229492,
+                    "y": 872.5690662591527
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

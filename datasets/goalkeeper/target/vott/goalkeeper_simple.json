@@ -1,0 +1,2755 @@
+[
+  {
+    "image": "frame_00023.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "head": {
+        "x": 599.47,
+        "y": 231.5
+      },
+      "shoulde-left": {
+        "x": 532.91,
+        "y": 297.1
+      },
+      "shoudle-right": {
+        "x": 656.66,
+        "y": 299.92
+      },
+      "knee-left": {
+        "x": 538.54,
+        "y": 629.82
+      },
+      "knee-right": {
+        "x": 636.04,
+        "y": 625.14
+      },
+      "foot-left": {
+        "x": 510.41,
+        "y": 784.94
+      },
+      "foot-right": {
+        "x": 650.1,
+        "y": 785.41
+      },
+      "hand-left": {
+        "x": 388.54,
+        "y": 388.95
+      },
+      "hand-right": {
+        "x": 831.97,
+        "y": 368.33
+      },
+      "gialkeeper": {
+        "x": 569.0,
+        "y": 502.36
+      }
+    }
+  },
+  {
+    "image": "frame_00031.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "head": {
+        "x": 611.66,
+        "y": 239.0
+      },
+      "shoulde-left": {
+        "x": 559.16,
+        "y": 316.79
+      },
+      "shoudle-right": {
+        "x": 660.41,
+        "y": 313.97
+      },
+      "knee-left": {
+        "x": 537.6,
+        "y": 644.82
+      },
+      "knee-right": {
+        "x": 634.63,
+        "y": 640.6
+      },
+      "foot-left": {
+        "x": 509.47,
+        "y": 780.25
+      },
+      "foot-right": {
+        "x": 640.72,
+        "y": 771.35
+      },
+      "hand-left": {
+        "x": 501.04,
+        "y": 476.12
+      },
+      "hand-right": {
+        "x": 673.54,
+        "y": 489.24
+      },
+      "gialkeeper": {
+        "x": 591.5,
+        "y": 493.46
+      }
+    }
+  },
+  {
+    "image": "frame_00070.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "gialkeeper": {
+        "x": 31.82,
+        "y": 835.55
+      }
+    }
+  },
+  {
+    "image": "frame_00066.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "foot-left": {
+        "x": 24.79,
+        "y": 822.9
+      },
+      "foot-right": {
+        "x": 43.54,
+        "y": 795.72
+      },
+      "gialkeeper": {
+        "x": 29.0,
+        "y": 813.52
+      }
+    }
+  },
+  {
+    "image": "frame_00017.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "head": {
+        "x": 601.35,
+        "y": 227.75
+      },
+      "shoulde-left": {
+        "x": 528.22,
+        "y": 300.85
+      },
+      "shoudle-right": {
+        "x": 664.16,
+        "y": 299.92
+      },
+      "knee-left": {
+        "x": 532.91,
+        "y": 629.36
+      },
+      "knee-right": {
+        "x": 635.1,
+        "y": 631.7
+      },
+      "foot-left": {
+        "x": 509.47,
+        "y": 774.16
+      },
+      "foot-right": {
+        "x": 653.85,
+        "y": 771.35
+      },
+      "hand-left": {
+        "x": 366.04,
+        "y": 348.65
+      },
+      "hand-right": {
+        "x": 836.66,
+        "y": 280.23
+      },
+      "gialkeeper": {
+        "x": 604.16,
+        "y": 491.11
+      }
+    }
+  },
+  {
+    "image": "frame_00056.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "knee-left": {
+        "x": 63.22,
+        "y": 821.02
+      },
+      "knee-right": {
+        "x": 74.47,
+        "y": 771.35
+      },
+      "hand-left": {
+        "x": 224.47,
+        "y": 829.46
+      },
+      "gialkeeper": {
+        "x": 147.6,
+        "y": 781.19
+      }
+    }
+  },
+  {
+    "image": "frame_00011.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "head": {
+        "x": 602.29,
+        "y": 227.75
+      },
+      "shoulde-left": {
+        "x": 528.22,
+        "y": 297.1
+      },
+      "shoudle-right": {
+        "x": 663.22,
+        "y": 288.67
+      },
+      "knee-left": {
+        "x": 533.85,
+        "y": 615.77
+      },
+      "knee-right": {
+        "x": 638.85,
+        "y": 621.39
+      },
+      "foot-left": {
+        "x": 506.66,
+        "y": 768.54
+      },
+      "foot-right": {
+        "x": 640.72,
+        "y": 767.6
+      },
+      "hand-left": {
+        "x": 363.22,
+        "y": 348.65
+      },
+      "hand-right": {
+        "x": 840.41,
+        "y": 275.55
+      },
+      "gialkeeper": {
+        "x": 602.08,
+        "y": 499.78
+      }
+    }
+  },
+  {
+    "image": "frame_00049.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "head": {
+        "x": 90.41,
+        "y": 480.8
+      },
+      "shoulde-left": {
+        "x": 91.35,
+        "y": 560.47
+      },
+      "shoudle-right": {
+        "x": 167.29,
+        "y": 508.92
+      },
+      "hand-left": {
+        "x": 39.79,
+        "y": 564.22
+      },
+      "hand-right": {
+        "x": 71.66,
+        "y": 515.48
+      },
+      "knee-left": {
+        "x": 413.85,
+        "y": 713.24
+      },
+      "knee-right": {
+        "x": 391.35,
+        "y": 633.57
+      },
+      "foot-left": {
+        "x": 540.41,
+        "y": 769.47
+      },
+      "foot-right": {
+        "x": 508.54,
+        "y": 625.61
+      },
+      "gialkeeper": {
+        "x": 301.82,
+        "y": 620.45
+      }
+    }
+  },
+  {
+    "image": "frame_00036.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "head": {
+        "x": 608.85,
+        "y": 254.93
+      },
+      "shoulde-left": {
+        "x": 548.85,
+        "y": 317.72
+      },
+      "shoudle-right": {
+        "x": 664.16,
+        "y": 319.6
+      },
+      "hand-left": {
+        "x": 499.16,
+        "y": 485.49
+      },
+      "hand-right": {
+        "x": 682.91,
+        "y": 487.36
+      },
+      "knee-left": {
+        "x": 520.72,
+        "y": 638.26
+      },
+      "knee-right": {
+        "x": 634.16,
+        "y": 643.88
+      },
+      "foot-left": {
+        "x": 512.29,
+        "y": 757.29
+      },
+      "foot-right": {
+        "x": 651.97,
+        "y": 762.91
+      },
+      "gialkeeper": {
+        "x": 601.14,
+        "y": 502.13
+      }
+    }
+  },
+  {
+    "image": "frame_00037.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "head": {
+        "x": 608.85,
+        "y": 257.74
+      },
+      "shoulde-left": {
+        "x": 557.29,
+        "y": 328.5
+      },
+      "shoudle-right": {
+        "x": 651.97,
+        "y": 332.72
+      },
+      "hand-left": {
+        "x": 490.72,
+        "y": 500.02
+      },
+      "hand-right": {
+        "x": 681.04,
+        "y": 494.86
+      },
+      "knee-left": {
+        "x": 531.97,
+        "y": 656.07
+      },
+      "knee-right": {
+        "x": 653.85,
+        "y": 656.07
+      },
+      "foot-left": {
+        "x": 508.54,
+        "y": 768.54
+      },
+      "foot-right": {
+        "x": 654.79,
+        "y": 770.41
+      },
+      "gialkeeper": {
+        "x": 579.79,
+        "y": 509.39
+      }
+    }
+  },
+  {
+    "image": "frame_00055.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "knee-left": {
+        "x": 152.29,
+        "y": 809.77
+      },
+      "knee-right": {
+        "x": 149.47,
+        "y": 780.72
+      }
+    }
+  },
+  {
+    "image": "frame_00000.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "knee-left": {
+        "x": 542.08,
+        "y": 623.26
+      },
+      "knee-right": {
+        "x": 638.17,
+        "y": 617.41
+      },
+      "foot-left": {
+        "x": 502.91,
+        "y": 778.85
+      },
+      "foot-right": {
+        "x": 654.79,
+        "y": 774.16
+      },
+      "head": {
+        "x": 600.41,
+        "y": 217.44
+      },
+      "shoulde-left": {
+        "x": 519.79,
+        "y": 294.29
+      },
+      "shoudle-right": {
+        "x": 658.54,
+        "y": 287.73
+      },
+      "hand-left": {
+        "x": 369.79,
+        "y": 355.68
+      },
+      "hand-right": {
+        "x": 867.6,
+        "y": 268.99
+      },
+      "gialkeeper": {
+        "x": 601.35,
+        "y": 495.33
+      }
+    }
+  },
+  {
+    "image": "frame_00002.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "knee-left": {
+        "x": 540.41,
+        "y": 627.95
+      },
+      "knee-right": {
+        "x": 633.22,
+        "y": 628.89
+      },
+      "foot-left": {
+        "x": 503.85,
+        "y": 782.59
+      },
+      "foot-right": {
+        "x": 651.04,
+        "y": 774.16
+      },
+      "shoulde-left": {
+        "x": 529.16,
+        "y": 294.29
+      },
+      "shoudle-right": {
+        "x": 662.29,
+        "y": 293.36
+      },
+      "hand-left": {
+        "x": 365.1,
+        "y": 343.97
+      },
+      "hand-right": {
+        "x": 835.72,
+        "y": 280.23
+      },
+      "gialkeeper": {
+        "x": 604.63,
+        "y": 499.55
+      }
+    }
+  },
+  {
+    "image": "frame_00005.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "head": {
+        "x": 602.29,
+        "y": 224.0
+      },
+      "shoulde-left": {
+        "x": 523.54,
+        "y": 287.73
+      },
+      "shoudle-right": {
+        "x": 666.97,
+        "y": 282.11
+      },
+      "hand-left": {
+        "x": 363.22,
+        "y": 344.9
+      },
+      "hand-right": {
+        "x": 832.91,
+        "y": 278.36
+      },
+      "knee-left": {
+        "x": 538.54,
+        "y": 620.45
+      },
+      "knee-right": {
+        "x": 644.47,
+        "y": 771.35
+      },
+      "foot-left": {
+        "x": 508.54,
+        "y": 776.97
+      },
+      "gialkeeper": {
+        "x": 603.69,
+        "y": 502.36
+      }
+    }
+  },
+  {
+    "image": "frame_00065.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "foot-left": {
+        "x": 28.54,
+        "y": 820.08
+      },
+      "foot-right": {
+        "x": 44.47,
+        "y": 795.72
+      },
+      "gialkeeper": {
+        "x": 35.1,
+        "y": 825.24
+      }
+    }
+  },
+  {
+    "image": "frame_00069.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "gialkeeper": {
+        "x": 24.79,
+        "y": 839.3
+      }
+    }
+  },
+  {
+    "image": "frame_00028.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "head": {
+        "x": 602.29,
+        "y": 232.44
+      },
+      "shoudle-right": {
+        "x": 661.35,
+        "y": 307.41
+      },
+      "shoulde-left": {
+        "x": 547.91,
+        "y": 297.1
+      },
+      "knee-left": {
+        "x": 535.72,
+        "y": 626.08
+      },
+      "knee-right": {
+        "x": 632.29,
+        "y": 630.76
+      },
+      "foot-left": {
+        "x": 514.63,
+        "y": 770.41
+      },
+      "foot-right": {
+        "x": 651.97,
+        "y": 773.69
+      },
+      "hand-left": {
+        "x": 478.54,
+        "y": 468.62
+      },
+      "hand-right": {
+        "x": 688.54,
+        "y": 472.37
+      },
+      "gialkeeper": {
+        "x": 584.94,
+        "y": 498.14
+      }
+    }
+  },
+  {
+    "image": "frame_00054.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "knee-left": {
+        "x": 156.97,
+        "y": 814.46
+      },
+      "knee-right": {
+        "x": 157.44,
+        "y": 773.69
+      },
+      "foot-left": {
+        "x": 310.72,
+        "y": 788.22
+      }
+    }
+  },
+  {
+    "image": "frame_00020.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "head": {
+        "x": 606.04,
+        "y": 230.56
+      },
+      "shoulde-left": {
+        "x": 537.6,
+        "y": 302.73
+      },
+      "shoudle-right": {
+        "x": 657.6,
+        "y": 304.6
+      },
+      "knee-left": {
+        "x": 546.04,
+        "y": 620.45
+      },
+      "knee-right": {
+        "x": 638.85,
+        "y": 621.39
+      },
+      "foot-left": {
+        "x": 507.6,
+        "y": 773.22
+      },
+      "foot-right": {
+        "x": 656.66,
+        "y": 776.03
+      },
+      "hand-left": {
+        "x": 354.79,
+        "y": 351.46
+      },
+      "hand-right": {
+        "x": 828.22,
+        "y": 277.42
+      },
+      "gialkeeper": {
+        "x": 624.79,
+        "y": 493.92
+      }
+    }
+  },
+  {
+    "image": "frame_00033.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "head": {
+        "x": 609.79,
+        "y": 239.93
+      },
+      "shoulde-left": {
+        "x": 557.29,
+        "y": 308.35
+      },
+      "shoudle-right": {
+        "x": 664.16,
+        "y": 314.44
+      },
+      "knee-left": {
+        "x": 541.35,
+        "y": 629.82
+      },
+      "knee-right": {
+        "x": 628.54,
+        "y": 632.64
+      },
+      "foot-left": {
+        "x": 506.66,
+        "y": 774.16
+      },
+      "foot-right": {
+        "x": 646.35,
+        "y": 778.85
+      },
+      "hand-left": {
+        "x": 501.04,
+        "y": 473.31
+      },
+      "hand-right": {
+        "x": 669.79,
+        "y": 479.87
+      },
+      "gialkeeper": {
+        "x": 586.35,
+        "y": 492.05
+      }
+    }
+  },
+  {
+    "image": "frame_00016.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "head": {
+        "x": 603.22,
+        "y": 225.87
+      },
+      "shoulde-left": {
+        "x": 542.29,
+        "y": 304.6
+      },
+      "shoudle-right": {
+        "x": 664.16,
+        "y": 303.67
+      },
+      "knee-left": {
+        "x": 543.22,
+        "y": 631.7
+      },
+      "knee-right": {
+        "x": 640.72,
+        "y": 632.64
+      },
+      "foot-left": {
+        "x": 512.29,
+        "y": 776.97
+      },
+      "foot-right": {
+        "x": 648.22,
+        "y": 771.35
+      },
+      "hand-left": {
+        "x": 361.35,
+        "y": 344.9
+      },
+      "hand-right": {
+        "x": 846.04,
+        "y": 280.23
+      },
+      "gialkeeper": {
+        "x": 602.75,
+        "y": 498.61
+      }
+    }
+  },
+  {
+    "image": "frame_00006.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "head": {
+        "x": 606.04,
+        "y": 225.87
+      },
+      "shoulde-left": {
+        "x": 530.1,
+        "y": 294.29
+      },
+      "shoudle-right": {
+        "x": 661.35,
+        "y": 294.29
+      },
+      "knee-left": {
+        "x": 537.6,
+        "y": 624.2
+      },
+      "knee-right": {
+        "x": 631.35,
+        "y": 621.39
+      },
+      "foot-left": {
+        "x": 643.54,
+        "y": 767.6
+      },
+      "gialkeeper": {
+        "x": 616.82,
+        "y": 494.39
+      }
+    }
+  },
+  {
+    "image": "frame_00058.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "foot-left": {
+        "x": 145.72,
+        "y": 837.89
+      },
+      "foot-right": {
+        "x": 101.66,
+        "y": 761.04
+      },
+      "gialkeeper": {
+        "x": 109.63,
+        "y": 784.94
+      }
+    }
+  },
+  {
+    "image": "frame_00035.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "head": {
+        "x": 610.72,
+        "y": 252.12
+      },
+      "shoulde-left": {
+        "x": 552.6,
+        "y": 330.85
+      },
+      "shoudle-right": {
+        "x": 651.97,
+        "y": 321.47
+      },
+      "knee-left": {
+        "x": 535.72,
+        "y": 643.88
+      },
+      "knee-right": {
+        "x": 636.97,
+        "y": 642.95
+      },
+      "foot-left": {
+        "x": 509.47,
+        "y": 776.03
+      },
+      "foot-right": {
+        "x": 649.16,
+        "y": 763.85
+      },
+      "hand-left": {
+        "x": 497.29,
+        "y": 485.49
+      },
+      "hand-right": {
+        "x": 670.72,
+        "y": 494.86
+      },
+      "gialkeeper": {
+        "x": 579.11,
+        "y": 505.41
+      }
+    }
+  },
+  {
+    "image": "frame_00025.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "head": {
+        "x": 602.75,
+        "y": 236.65
+      },
+      "shoulde-left": {
+        "x": 547.91,
+        "y": 307.41
+      },
+      "shoudle-right": {
+        "x": 653.85,
+        "y": 308.35
+      },
+      "hand-left": {
+        "x": 405.41,
+        "y": 452.69
+      },
+      "hand-right": {
+        "x": 756.97,
+        "y": 428.32
+      },
+      "knee-left": {
+        "x": 534.79,
+        "y": 628.89
+      },
+      "knee-right": {
+        "x": 636.04,
+        "y": 627.95
+      },
+      "foot-left": {
+        "x": 509.47,
+        "y": 762.91
+      },
+      "foot-right": {
+        "x": 649.16,
+        "y": 777.91
+      },
+      "gialkeeper": {
+        "x": 576.97,
+        "y": 498.14
+      }
+    }
+  },
+  {
+    "image": "frame_00064.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "foot-left": {
+        "x": 27.6,
+        "y": 824.77
+      },
+      "foot-right": {
+        "x": 42.6,
+        "y": 799.46
+      },
+      "gialkeeper": {
+        "x": 51.5,
+        "y": 822.9
+      }
+    }
+  },
+  {
+    "image": "frame_00008.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "shoulde-left": {
+        "x": 531.97,
+        "y": 290.54
+      },
+      "head": {
+        "x": 602.29,
+        "y": 228.69
+      },
+      "shoudle-right": {
+        "x": 663.22,
+        "y": 295.23
+      },
+      "knee-left": {
+        "x": 537.6,
+        "y": 625.14
+      },
+      "knee-right": {
+        "x": 649.16,
+        "y": 761.04
+      },
+      "foot-left": {
+        "x": 507.6,
+        "y": 770.41
+      },
+      "hand-left": {
+        "x": 374.0,
+        "y": 347.72
+      },
+      "hand-right": {
+        "x": 823.54,
+        "y": 283.98
+      },
+      "gialkeeper": {
+        "x": 611.19,
+        "y": 493.46
+      }
+    }
+  },
+  {
+    "image": "frame_00052.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "knee-left": {
+        "x": 220.72,
+        "y": 763.85
+      },
+      "knee-right": {
+        "x": 227.29,
+        "y": 701.05
+      },
+      "foot-left": {
+        "x": 376.35,
+        "y": 765.72
+      },
+      "gialkeeper": {
+        "x": 217.91,
+        "y": 722.61
+      }
+    }
+  },
+  {
+    "image": "frame_00029.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "head": {
+        "x": 603.22,
+        "y": 233.37
+      },
+      "shoulde-left": {
+        "x": 545.1,
+        "y": 307.41
+      },
+      "shoudle-right": {
+        "x": 657.6,
+        "y": 305.54
+      },
+      "knee-left": {
+        "x": 537.6,
+        "y": 624.2
+      },
+      "knee-right": {
+        "x": 635.1,
+        "y": 634.51
+      },
+      "foot-left": {
+        "x": 499.16,
+        "y": 776.97
+      },
+      "foot-right": {
+        "x": 648.22,
+        "y": 771.35
+      },
+      "hand-left": {
+        "x": 502.91,
+        "y": 465.81
+      },
+      "hand-right": {
+        "x": 676.35,
+        "y": 487.36
+      },
+      "gialkeeper": {
+        "x": 588.69,
+        "y": 502.83
+      }
+    }
+  },
+  {
+    "image": "frame_00053.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "knee-left": {
+        "x": 186.04,
+        "y": 774.16
+      },
+      "knee-right": {
+        "x": 206.66,
+        "y": 728.23
+      },
+      "foot-left": {
+        "x": 354.79,
+        "y": 762.91
+      },
+      "gialkeeper": {
+        "x": 204.32,
+        "y": 758.23
+      }
+    }
+  },
+  {
+    "image": "frame_00027.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "head": {
+        "x": 602.29,
+        "y": 228.69
+      },
+      "shoulde-left": {
+        "x": 549.79,
+        "y": 303.67
+      },
+      "shoudle-right": {
+        "x": 652.91,
+        "y": 298.98
+      },
+      "knee-left": {
+        "x": 540.41,
+        "y": 634.51
+      },
+      "knee-right": {
+        "x": 633.22,
+        "y": 637.32
+      },
+      "foot-left": {
+        "x": 507.6,
+        "y": 775.1
+      },
+      "foot-right": {
+        "x": 652.91,
+        "y": 770.41
+      },
+      "hand-left": {
+        "x": 472.91,
+        "y": 447.06
+      },
+      "hand-right": {
+        "x": 702.6,
+        "y": 448.94
+      },
+      "gialkeeper": {
+        "x": 585.88,
+        "y": 495.8
+      }
+    }
+  },
+  {
+    "image": "frame_00022.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "head": {
+        "x": 599.94,
+        "y": 225.87
+      },
+      "shoulde-left": {
+        "x": 532.91,
+        "y": 294.29
+      },
+      "shoudle-right": {
+        "x": 657.6,
+        "y": 293.36
+      },
+      "knee-left": {
+        "x": 537.6,
+        "y": 628.89
+      },
+      "knee-right": {
+        "x": 635.1,
+        "y": 633.57
+      },
+      "foot-left": {
+        "x": 512.29,
+        "y": 783.53
+      },
+      "foot-right": {
+        "x": 645.41,
+        "y": 774.16
+      },
+      "hand-left": {
+        "x": 374.47,
+        "y": 371.15
+      },
+      "hand-right": {
+        "x": 804.79,
+        "y": 340.22
+      },
+      "gialkeeper": {
+        "x": 605.13,
+        "y": 495.33
+      }
+    }
+  },
+  {
+    "image": "frame_00010.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "head": {
+        "x": 608.85,
+        "y": 224.94
+      },
+      "shoulde-left": {
+        "x": 532.91,
+        "y": 302.73
+      },
+      "shoudle-right": {
+        "x": 657.6,
+        "y": 302.73
+      },
+      "knee-left": {
+        "x": 540.41,
+        "y": 623.26
+      },
+      "knee-right": {
+        "x": 633.22,
+        "y": 623.26
+      },
+      "foot-left": {
+        "x": 505.72,
+        "y": 772.28
+      },
+      "foot-right": {
+        "x": 650.1,
+        "y": 763.85
+      },
+      "hand-left": {
+        "x": 379.16,
+        "y": 346.78
+      },
+      "hand-right": {
+        "x": 827.29,
+        "y": 276.49
+      },
+      "gialkeeper": {
+        "x": 602.29,
+        "y": 494.39
+      }
+    }
+  },
+  {
+    "image": "frame_00032.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "head": {
+        "x": 611.66,
+        "y": 237.12
+      },
+      "shoulde-left": {
+        "x": 548.85,
+        "y": 300.85
+      },
+      "shoudle-right": {
+        "x": 662.29,
+        "y": 302.73
+      },
+      "knee-left": {
+        "x": 539.47,
+        "y": 631.7
+      },
+      "knee-right": {
+        "x": 634.16,
+        "y": 628.89
+      },
+      "foot-left": {
+        "x": 512.29,
+        "y": 772.75
+      },
+      "foot-right": {
+        "x": 651.97,
+        "y": 772.28
+      },
+      "hand-left": {
+        "x": 501.04,
+        "y": 477.05
+      },
+      "hand-right": {
+        "x": 670.72,
+        "y": 481.74
+      },
+      "gialkeeper": {
+        "x": 588.69,
+        "y": 494.39
+      }
+    }
+  },
+  {
+    "image": "frame_00045.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "head": {
+        "x": 369.79,
+        "y": 393.64
+      },
+      "shoulde-left": {
+        "x": 340.72,
+        "y": 472.37
+      },
+      "shoudle-right": {
+        "x": 442.91,
+        "y": 446.13
+      },
+      "hand-left": {
+        "x": 262.91,
+        "y": 519.23
+      },
+      "hand-right": {
+        "x": 421.82,
+        "y": 530.01
+      },
+      "knee-left": {
+        "x": 502.91,
+        "y": 701.99
+      },
+      "knee-right": {
+        "x": 617.29,
+        "y": 668.25
+      },
+      "foot-left": {
+        "x": 625.72,
+        "y": 793.84
+      },
+      "foot-right": {
+        "x": 723.22,
+        "y": 755.41
+      },
+      "gialkeeper": {
+        "x": 471.97,
+        "y": 587.18
+      }
+    }
+  },
+  {
+    "image": "frame_00072.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "gialkeeper": {
+        "x": 54.79,
+        "y": 842.11
+      }
+    }
+  },
+  {
+    "image": "frame_00024.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "head": {
+        "x": 605.1,
+        "y": 226.81
+      },
+      "shoulde-left": {
+        "x": 540.41,
+        "y": 302.73
+      },
+      "shoudle-right": {
+        "x": 657.6,
+        "y": 296.17
+      },
+      "knee-left": {
+        "x": 539.47,
+        "y": 621.39
+      },
+      "knee-right": {
+        "x": 637.91,
+        "y": 618.58
+      },
+      "foot-left": {
+        "x": 510.41,
+        "y": 774.16
+      },
+      "foot-right": {
+        "x": 651.04,
+        "y": 769.47
+      },
+      "hand-left": {
+        "x": 401.66,
+        "y": 408.64
+      },
+      "hand-right": {
+        "x": 798.22,
+        "y": 395.51
+      },
+      "gialkeeper": {
+        "x": 582.6,
+        "y": 491.11
+      }
+    }
+  },
+  {
+    "image": "frame_00062.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "foot-left": {
+        "x": 46.35,
+        "y": 819.15
+      },
+      "foot-right": {
+        "x": 60.41,
+        "y": 782.59
+      },
+      "gialkeeper": {
+        "x": 48.22,
+        "y": 797.12
+      }
+    }
+  },
+  {
+    "image": "frame_00009.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "head": {
+        "x": 604.16,
+        "y": 225.87
+      },
+      "shoulde-left": {
+        "x": 540.41,
+        "y": 297.1
+      },
+      "shoudle-right": {
+        "x": 662.29,
+        "y": 295.23
+      },
+      "knee-left": {
+        "x": 540.41,
+        "y": 624.2
+      },
+      "knee-right": {
+        "x": 636.97,
+        "y": 625.14
+      },
+      "foot-left": {
+        "x": 506.66,
+        "y": 769.47
+      },
+      "foot-right": {
+        "x": 651.97,
+        "y": 761.97
+      },
+      "hand-left": {
+        "x": 371.66,
+        "y": 344.9
+      },
+      "hand-right": {
+        "x": 829.16,
+        "y": 278.36
+      },
+      "gialkeeper": {
+        "x": 616.82,
+        "y": 496.74
+      }
+    }
+  },
+  {
+    "image": "frame_00030.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "head": {
+        "x": 606.97,
+        "y": 239.0
+      },
+      "shoulde-left": {
+        "x": 549.79,
+        "y": 320.54
+      },
+      "shoudle-right": {
+        "x": 651.97,
+        "y": 316.79
+      },
+      "knee-left": {
+        "x": 537.13,
+        "y": 637.32
+      },
+      "knee-right": {
+        "x": 634.16,
+        "y": 641.07
+      },
+      "foot-left": {
+        "x": 508.54,
+        "y": 783.53
+      },
+      "foot-right": {
+        "x": 637.91,
+        "y": 768.54
+      },
+      "hand-left": {
+        "x": 503.85,
+        "y": 471.43
+      },
+      "hand-right": {
+        "x": 676.35,
+        "y": 484.55
+      },
+      "gialkeeper": {
+        "x": 594.32,
+        "y": 503.77
+      }
+    }
+  },
+  {
+    "image": "frame_00004.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "head": {
+        "x": 605.1,
+        "y": 225.87
+      },
+      "hand-left": {
+        "x": 357.6,
+        "y": 343.97
+      },
+      "hand-right": {
+        "x": 835.72,
+        "y": 278.36
+      },
+      "shoulde-left": {
+        "x": 538.54,
+        "y": 288.67
+      },
+      "shoudle-right": {
+        "x": 664.16,
+        "y": 284.92
+      },
+      "knee-left": {
+        "x": 538.54,
+        "y": 628.89
+      },
+      "knee-right": {
+        "x": 632.29,
+        "y": 622.33
+      },
+      "foot-left": {
+        "x": 511.35,
+        "y": 776.97
+      },
+      "foot-right": {
+        "x": 648.22,
+        "y": 773.22
+      },
+      "gialkeeper": {
+        "x": 620.1,
+        "y": 497.67
+      }
+    }
+  },
+  {
+    "image": "frame_00068.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "gialkeeper": {
+        "x": 21.97,
+        "y": 838.36
+      }
+    }
+  },
+  {
+    "image": "frame_00019.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "head": {
+        "x": 605.1,
+        "y": 226.81
+      },
+      "shoulde-left": {
+        "x": 536.66,
+        "y": 300.85
+      },
+      "shoudle-right": {
+        "x": 666.04,
+        "y": 305.54
+      },
+      "knee-left": {
+        "x": 535.72,
+        "y": 631.7
+      },
+      "knee-right": {
+        "x": 637.91,
+        "y": 629.82
+      },
+      "foot-left": {
+        "x": 508.54,
+        "y": 775.1
+      },
+      "foot-right": {
+        "x": 651.97,
+        "y": 774.16
+      },
+      "hand-left": {
+        "x": 365.1,
+        "y": 350.53
+      },
+      "hand-right": {
+        "x": 832.91,
+        "y": 276.49
+      },
+      "gialkeeper": {
+        "x": 599.0,
+        "y": 493.46
+      }
+    }
+  },
+  {
+    "image": "frame_00012.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "head": {
+        "x": 602.29,
+        "y": 226.81
+      },
+      "shoulde-left": {
+        "x": 535.72,
+        "y": 301.79
+      },
+      "shoudle-right": {
+        "x": 663.22,
+        "y": 295.23
+      },
+      "knee-left": {
+        "x": 533.85,
+        "y": 632.64
+      },
+      "knee-right": {
+        "x": 636.97,
+        "y": 628.89
+      },
+      "foot-left": {
+        "x": 508.54,
+        "y": 776.03
+      },
+      "foot-right": {
+        "x": 647.29,
+        "y": 772.28
+      },
+      "hand-left": {
+        "x": 364.16,
+        "y": 355.21
+      },
+      "hand-right": {
+        "x": 834.79,
+        "y": 282.11
+      },
+      "gialkeeper": {
+        "x": 603.69,
+        "y": 495.8
+      }
+    }
+  },
+  {
+    "image": "frame_00074.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "gialkeeper": {
+        "x": 74.47,
+        "y": 845.39
+      }
+    }
+  },
+  {
+    "image": "frame_00050.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "knee-left": {
+        "x": 306.97,
+        "y": 715.11
+      },
+      "knee-right": {
+        "x": 340.72,
+        "y": 636.38
+      },
+      "foot-left": {
+        "x": 506.66,
+        "y": 759.16
+      },
+      "foot-right": {
+        "x": 490.72,
+        "y": 617.64
+      },
+      "gialkeeper": {
+        "x": 274.63,
+        "y": 652.79
+      }
+    }
+  },
+  {
+    "image": "frame_00073.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "gialkeeper": {
+        "x": 54.32,
+        "y": 841.17
+      }
+    }
+  },
+  {
+    "image": "frame_00042.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "head": {
+        "x": 528.22,
+        "y": 400.2
+      },
+      "shoulde-left": {
+        "x": 472.91,
+        "y": 466.74
+      },
+      "shoudle-right": {
+        "x": 597.6,
+        "y": 466.74
+      },
+      "hand-left": {
+        "x": 390.41,
+        "y": 597.96
+      },
+      "hand-right": {
+        "x": 596.19,
+        "y": 617.64
+      },
+      "knee-left": {
+        "x": 508.54,
+        "y": 647.63
+      },
+      "knee-right": {
+        "x": 672.6,
+        "y": 681.37
+      },
+      "foot-left": {
+        "x": 614.47,
+        "y": 780.72
+      },
+      "foot-right": {
+        "x": 738.22,
+        "y": 787.28
+      },
+      "gialkeeper": {
+        "x": 572.29,
+        "y": 585.31
+      }
+    }
+  },
+  {
+    "image": "frame_00067.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "gialkeeper": {
+        "x": 25.25,
+        "y": 818.68
+      }
+    }
+  },
+  {
+    "image": "frame_00014.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "head": {
+        "x": 601.35,
+        "y": 224.0
+      },
+      "shoulde-left": {
+        "x": 531.04,
+        "y": 301.79
+      },
+      "shoudle-right": {
+        "x": 666.97,
+        "y": 304.6
+      },
+      "knee-left": {
+        "x": 543.22,
+        "y": 622.33
+      },
+      "knee-right": {
+        "x": 637.91,
+        "y": 628.89
+      },
+      "foot-left": {
+        "x": 511.35,
+        "y": 777.91
+      },
+      "foot-right": {
+        "x": 653.85,
+        "y": 769.47
+      },
+      "hand-left": {
+        "x": 362.29,
+        "y": 358.03
+      },
+      "hand-right": {
+        "x": 828.22,
+        "y": 278.36
+      },
+      "gialkeeper": {
+        "x": 600.41,
+        "y": 501.42
+      }
+    }
+  },
+  {
+    "image": "frame_00048.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "head": {
+        "x": 109.16,
+        "y": 474.24
+      },
+      "shoulde-left": {
+        "x": 105.41,
+        "y": 560.47
+      },
+      "shoudle-right": {
+        "x": 184.16,
+        "y": 492.05
+      },
+      "hand-left": {
+        "x": 59.0,
+        "y": 554.38
+      },
+      "hand-right": {
+        "x": 119.47,
+        "y": 501.42
+      },
+      "knee-left": {
+        "x": 398.38,
+        "y": 697.31
+      },
+      "knee-right": {
+        "x": 427.44,
+        "y": 616.7
+      },
+      "foot-left": {
+        "x": 569.47,
+        "y": 771.35
+      },
+      "foot-right": {
+        "x": 557.29,
+        "y": 645.76
+      },
+      "gialkeeper": {
+        "x": 294.79,
+        "y": 605.46
+      }
+    }
+  },
+  {
+    "image": "frame_00039.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "head": {
+        "x": 603.22,
+        "y": 302.73
+      },
+      "shoulde-left": {
+        "x": 546.04,
+        "y": 361.77
+      },
+      "shoudle-right": {
+        "x": 660.41,
+        "y": 375.83
+      },
+      "hand-left": {
+        "x": 474.79,
+        "y": 502.36
+      },
+      "hand-right": {
+        "x": 690.41,
+        "y": 505.17
+      },
+      "knee-left": {
+        "x": 540.41,
+        "y": 635.45
+      },
+      "knee-right": {
+        "x": 680.1,
+        "y": 645.76
+      },
+      "foot-left": {
+        "x": 525.41,
+        "y": 758.23
+      },
+      "foot-right": {
+        "x": 700.72,
+        "y": 765.72
+      },
+      "gialkeeper": {
+        "x": 602.29,
+        "y": 532.82
+      }
+    }
+  },
+  {
+    "image": "frame_00003.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "shoulde-left": {
+        "x": 530.1,
+        "y": 299.92
+      },
+      "shoudle-right": {
+        "x": 668.85,
+        "y": 298.04
+      },
+      "knee-left": {
+        "x": 541.35,
+        "y": 620.45
+      },
+      "knee-right": {
+        "x": 635.1,
+        "y": 625.14
+      },
+      "hand-left": {
+        "x": 352.91,
+        "y": 351.46
+      },
+      "hand-right": {
+        "x": 839.47,
+        "y": 271.8
+      },
+      "foot-right": {
+        "x": 648.22,
+        "y": 767.6
+      },
+      "head": {
+        "x": 605.1,
+        "y": 225.87
+      },
+      "gialkeeper": {
+        "x": 619.63,
+        "y": 493.46
+      }
+    }
+  },
+  {
+    "image": "frame_00021.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "head": {
+        "x": 602.29,
+        "y": 231.5
+      },
+      "shoulde-left": {
+        "x": 542.29,
+        "y": 303.67
+      },
+      "shoudle-right": {
+        "x": 663.22,
+        "y": 303.67
+      },
+      "knee-left": {
+        "x": 535.72,
+        "y": 632.64
+      },
+      "knee-right": {
+        "x": 636.04,
+        "y": 635.45
+      },
+      "foot-left": {
+        "x": 509.47,
+        "y": 782.59
+      },
+      "foot-right": {
+        "x": 647.29,
+        "y": 769.47
+      },
+      "hand-left": {
+        "x": 358.54,
+        "y": 349.59
+      },
+      "hand-right": {
+        "x": 829.16,
+        "y": 304.6
+      },
+      "gialkeeper": {
+        "x": 602.29,
+        "y": 498.61
+      }
+    }
+  },
+  {
+    "image": "frame_00034.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "head": {
+        "x": 612.6,
+        "y": 247.43
+      },
+      "shoulde-left": {
+        "x": 555.41,
+        "y": 317.72
+      },
+      "shoudle-right": {
+        "x": 658.54,
+        "y": 313.04
+      },
+      "knee-left": {
+        "x": 535.72,
+        "y": 636.38
+      },
+      "knee-right": {
+        "x": 635.1,
+        "y": 637.32
+      },
+      "foot-left": {
+        "x": 516.97,
+        "y": 773.22
+      },
+      "foot-right": {
+        "x": 642.6,
+        "y": 774.16
+      },
+      "hand-left": {
+        "x": 497.29,
+        "y": 488.3
+      },
+      "hand-right": {
+        "x": 676.35,
+        "y": 485.49
+      },
+      "gialkeeper": {
+        "x": 586.82,
+        "y": 498.61
+      }
+    }
+  },
+  {
+    "image": "frame_00046.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "shoulde-left": {
+        "x": 233.38,
+        "y": 501.42
+      },
+      "shoudle-right": {
+        "x": 319.16,
+        "y": 433.0
+      },
+      "hand-left": {
+        "x": 163.54,
+        "y": 496.74
+      },
+      "hand-right": {
+        "x": 304.16,
+        "y": 477.05
+      },
+      "knee-left": {
+        "x": 496.35,
+        "y": 704.8
+      },
+      "knee-right": {
+        "x": 543.22,
+        "y": 647.63
+      },
+      "foot-left": {
+        "x": 610.72,
+        "y": 781.66
+      },
+      "foot-right": {
+        "x": 627.6,
+        "y": 698.24
+      },
+      "head": {
+        "x": 246.04,
+        "y": 441.44
+      },
+      "gialkeeper": {
+        "x": 410.1,
+        "y": 598.9
+      }
+    }
+  },
+  {
+    "image": "frame_00041.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "head": {
+        "x": 559.16,
+        "y": 390.83
+      },
+      "shoulde-left": {
+        "x": 497.29,
+        "y": 450.81
+      },
+      "shoudle-right": {
+        "x": 628.54,
+        "y": 457.37
+      },
+      "knee-right": {
+        "x": 666.04,
+        "y": 663.56
+      },
+      "foot-left": {
+        "x": 591.04,
+        "y": 772.28
+      },
+      "foot-right": {
+        "x": 756.97,
+        "y": 791.03
+      },
+      "hand-left": {
+        "x": 441.97,
+        "y": 605.46
+      },
+      "knee-left": {
+        "x": 520.72,
+        "y": 661.22
+      },
+      "hand-right": {
+        "x": 656.66,
+        "y": 616.7
+      },
+      "gialkeeper": {
+        "x": 605.1,
+        "y": 582.96
+      }
+    }
+  },
+  {
+    "image": "frame_00018.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "head": {
+        "x": 608.85,
+        "y": 225.87
+      },
+      "shoulde-left": {
+        "x": 528.22,
+        "y": 296.17
+      },
+      "shoudle-right": {
+        "x": 665.1,
+        "y": 297.1
+      },
+      "knee-left": {
+        "x": 536.66,
+        "y": 632.64
+      },
+      "knee-right": {
+        "x": 635.1,
+        "y": 629.82
+      },
+      "foot-left": {
+        "x": 510.41,
+        "y": 777.91
+      },
+      "foot-right": {
+        "x": 647.29,
+        "y": 771.35
+      },
+      "hand-left": {
+        "x": 370.72,
+        "y": 343.97
+      },
+      "hand-right": {
+        "x": 829.16,
+        "y": 283.05
+      },
+      "gialkeeper": {
+        "x": 601.82,
+        "y": 498.61
+      }
+    }
+  },
+  {
+    "image": "frame_00043.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "head": {
+        "x": 505.25,
+        "y": 397.39
+      },
+      "shoulde-left": {
+        "x": 460.25,
+        "y": 465.34
+      },
+      "shoudle-right": {
+        "x": 565.72,
+        "y": 462.06
+      },
+      "hand-left": {
+        "x": 364.63,
+        "y": 592.33
+      },
+      "hand-right": {
+        "x": 568.54,
+        "y": 596.08
+      },
+      "knee-left": {
+        "x": 505.72,
+        "y": 648.57
+      },
+      "knee-right": {
+        "x": 651.97,
+        "y": 677.62
+      },
+      "foot-left": {
+        "x": 608.85,
+        "y": 776.03
+      },
+      "foot-right": {
+        "x": 750.41,
+        "y": 791.03
+      }
+    }
+  },
+  {
+    "image": "frame_00057.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "knee-left": {
+        "x": 68.85,
+        "y": 819.15
+      },
+      "knee-right": {
+        "x": 59.94,
+        "y": 771.82
+      },
+      "foot-left": {
+        "x": 214.16,
+        "y": 827.58
+      },
+      "gialkeeper": {
+        "x": 136.82,
+        "y": 776.03
+      }
+    }
+  },
+  {
+    "image": "frame_00059.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "foot-left": {
+        "x": 152.29,
+        "y": 832.27
+      },
+      "foot-right": {
+        "x": 103.54,
+        "y": 760.1
+      },
+      "gialkeeper": {
+        "x": 114.32,
+        "y": 780.72
+      }
+    }
+  },
+  {
+    "image": "frame_00013.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "head": {
+        "x": 603.22,
+        "y": 224.94
+      },
+      "shoulde-left": {
+        "x": 534.79,
+        "y": 299.92
+      },
+      "shoudle-right": {
+        "x": 654.79,
+        "y": 296.17
+      },
+      "knee-left": {
+        "x": 532.91,
+        "y": 624.2
+      },
+      "knee-right": {
+        "x": 636.97,
+        "y": 629.82
+      },
+      "foot-left": {
+        "x": 511.35,
+        "y": 776.5
+      },
+      "foot-right": {
+        "x": 648.22,
+        "y": 772.28
+      },
+      "hand-left": {
+        "x": 365.1,
+        "y": 355.21
+      },
+      "hand-right": {
+        "x": 835.72,
+        "y": 277.42
+      },
+      "gialkeeper": {
+        "x": 599.47,
+        "y": 498.14
+      }
+    }
+  },
+  {
+    "image": "frame_00051.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "knee-left": {
+        "x": 290.1,
+        "y": 731.05
+      },
+      "knee-right": {
+        "x": 326.66,
+        "y": 631.7
+      },
+      "foot-left": {
+        "x": 486.97,
+        "y": 769.47
+      },
+      "foot-right": {
+        "x": 476.66,
+        "y": 617.64
+      },
+      "gialkeeper": {
+        "x": 263.85,
+        "y": 650.91
+      }
+    }
+  },
+  {
+    "image": "frame_00007.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "head": {
+        "x": 607.91,
+        "y": 222.13
+      },
+      "shoulde-left": {
+        "x": 527.29,
+        "y": 291.48
+      },
+      "shoudle-right": {
+        "x": 658.54,
+        "y": 288.67
+      },
+      "knee-left": {
+        "x": 538.54,
+        "y": 618.58
+      },
+      "knee-right": {
+        "x": 632.29,
+        "y": 621.39
+      },
+      "foot-left": {
+        "x": 506.66,
+        "y": 781.66
+      },
+      "foot-right": {
+        "x": 654.79,
+        "y": 776.97
+      },
+      "hand-left": {
+        "x": 374.47,
+        "y": 342.09
+      },
+      "hand-right": {
+        "x": 860.1,
+        "y": 268.05
+      },
+      "gialkeeper": {
+        "x": 591.04,
+        "y": 492.05
+      }
+    }
+  },
+  {
+    "image": "frame_00040.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "head": {
+        "x": 593.85,
+        "y": 368.33
+      },
+      "shoulde-left": {
+        "x": 527.29,
+        "y": 433.94
+      },
+      "shoudle-right": {
+        "x": 654.79,
+        "y": 443.31
+      },
+      "knee-left": {
+        "x": 517.91,
+        "y": 648.57
+      },
+      "knee-right": {
+        "x": 657.6,
+        "y": 651.38
+      },
+      "hand-left": {
+        "x": 461.66,
+        "y": 568.9
+      },
+      "hand-right": {
+        "x": 692.29,
+        "y": 574.53
+      },
+      "foot-left": {
+        "x": 546.97,
+        "y": 755.41
+      },
+      "foot-right": {
+        "x": 747.13,
+        "y": 788.22
+      },
+      "gialkeeper": {
+        "x": 629.47,
+        "y": 567.03
+      }
+    }
+  },
+  {
+    "image": "frame_00015.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "head": {
+        "x": 606.04,
+        "y": 228.69
+      },
+      "shoulde-left": {
+        "x": 541.35,
+        "y": 300.85
+      },
+      "shoudle-right": {
+        "x": 660.41,
+        "y": 293.36
+      },
+      "knee-left": {
+        "x": 536.66,
+        "y": 630.76
+      },
+      "knee-right": {
+        "x": 633.22,
+        "y": 630.76
+      },
+      "foot-left": {
+        "x": 502.91,
+        "y": 774.16
+      },
+      "foot-right": {
+        "x": 650.1,
+        "y": 763.38
+      },
+      "hand-left": {
+        "x": 357.6,
+        "y": 353.34
+      },
+      "hand-right": {
+        "x": 833.85,
+        "y": 282.11
+      },
+      "gialkeeper": {
+        "x": 612.13,
+        "y": 500.02
+      }
+    }
+  },
+  {
+    "image": "frame_00038.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "head": {
+        "x": 606.04,
+        "y": 279.3
+      },
+      "shoulde-left": {
+        "x": 539.47,
+        "y": 350.53
+      },
+      "shoudle-right": {
+        "x": 651.97,
+        "y": 352.4
+      },
+      "hand-left": {
+        "x": 481.35,
+        "y": 512.67
+      },
+      "hand-right": {
+        "x": 687.6,
+        "y": 503.3
+      },
+      "knee-left": {
+        "x": 531.97,
+        "y": 656.07
+      },
+      "knee-right": {
+        "x": 672.13,
+        "y": 653.26
+      },
+      "foot-left": {
+        "x": 513.22,
+        "y": 765.72
+      },
+      "foot-right": {
+        "x": 670.72,
+        "y": 768.54
+      },
+      "gialkeeper": {
+        "x": 588.69,
+        "y": 520.64
+      }
+    }
+  },
+  {
+    "image": "frame_00063.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "foot-left": {
+        "x": 38.85,
+        "y": 820.08
+      },
+      "foot-right": {
+        "x": 60.41,
+        "y": 782.59
+      },
+      "gialkeeper": {
+        "x": 44.47,
+        "y": 799.93
+      }
+    }
+  },
+  {
+    "image": "frame_00026.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "head": {
+        "x": 603.22,
+        "y": 237.12
+      },
+      "shoulde-left": {
+        "x": 535.72,
+        "y": 307.41
+      },
+      "shoudle-right": {
+        "x": 658.54,
+        "y": 304.6
+      },
+      "knee-left": {
+        "x": 532.91,
+        "y": 628.89
+      },
+      "knee-right": {
+        "x": 635.1,
+        "y": 636.38
+      },
+      "foot-left": {
+        "x": 511.82,
+        "y": 776.97
+      },
+      "foot-right": {
+        "x": 647.29,
+        "y": 777.91
+      },
+      "hand-left": {
+        "x": 443.85,
+        "y": 458.31
+      },
+      "hand-right": {
+        "x": 731.66,
+        "y": 448.47
+      },
+      "gialkeeper": {
+        "x": 584.47,
+        "y": 502.83
+      }
+    }
+  },
+  {
+    "image": "frame_00060.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "foot-left": {
+        "x": 66.04,
+        "y": 813.52
+      },
+      "foot-right": {
+        "x": 68.85,
+        "y": 744.17
+      },
+      "gialkeeper": {
+        "x": 66.04,
+        "y": 781.19
+      }
+    }
+  },
+  {
+    "image": "frame_00047.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "head": {
+        "x": 212.29,
+        "y": 429.26
+      },
+      "hand-left": {
+        "x": 173.85,
+        "y": 491.11
+      },
+      "hand-right": {
+        "x": 617.29,
+        "y": 687.93
+      },
+      "shoulde-left": {
+        "x": 219.79,
+        "y": 498.61
+      },
+      "shoudle-right": {
+        "x": 305.1,
+        "y": 444.25
+      },
+      "knee-left": {
+        "x": 490.72,
+        "y": 696.37
+      },
+      "knee-right": {
+        "x": 527.29,
+        "y": 634.51
+      },
+      "foot-left": {
+        "x": 612.6,
+        "y": 778.85
+      },
+      "gialkeeper": {
+        "x": 380.57,
+        "y": 593.74
+      }
+    }
+  },
+  {
+    "image": "frame_00061.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "foot-left": {
+        "x": 33.22,
+        "y": 817.27
+      },
+      "foot-right": {
+        "x": 56.66,
+        "y": 770.41
+      },
+      "gialkeeper": {
+        "x": 49.16,
+        "y": 796.65
+      }
+    }
+  },
+  {
+    "image": "frame_00001.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "knee-left": {
+        "x": 542.29,
+        "y": 624.67
+      },
+      "knee-right": {
+        "x": 632.29,
+        "y": 627.95
+      },
+      "foot-left": {
+        "x": 506.66,
+        "y": 776.97
+      },
+      "foot-right": {
+        "x": 653.85,
+        "y": 777.91
+      },
+      "head": {
+        "x": 606.97,
+        "y": 221.19
+      },
+      "shoulde-left": {
+        "x": 522.6,
+        "y": 303.67
+      },
+      "shoudle-right": {
+        "x": 663.22,
+        "y": 296.17
+      },
+      "hand-left": {
+        "x": 362.29,
+        "y": 352.4
+      },
+      "hand-right": {
+        "x": 838.54,
+        "y": 271.8
+      },
+      "gialkeeper": {
+        "x": 603.69,
+        "y": 500.95
+      }
+    }
+  },
+  {
+    "image": "frame_00044.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "head": {
+        "x": 401.66,
+        "y": 401.14
+      },
+      "shoulde-left": {
+        "x": 352.91,
+        "y": 462.06
+      },
+      "shoudle-right": {
+        "x": 483.22,
+        "y": 450.81
+      },
+      "hand-left": {
+        "x": 285.41,
+        "y": 533.29
+      },
+      "hand-right": {
+        "x": 471.97,
+        "y": 541.72
+      },
+      "knee-left": {
+        "x": 501.97,
+        "y": 712.3
+      },
+      "knee-right": {
+        "x": 616.82,
+        "y": 656.07
+      },
+      "foot-left": {
+        "x": 636.04,
+        "y": 786.34
+      },
+      "foot-right": {
+        "x": 734.47,
+        "y": 761.97
+      },
+      "gialkeeper": {
+        "x": 487.44,
+        "y": 589.05
+      }
+    }
+  },
+  {
+    "image": "frame_00071.jpg",
+    "width": 1260,
+    "height": 1344,
+    "keypoints": {
+      "gialkeeper": {
+        "x": 36.5,
+        "y": 832.74
+      }
+    }
+  }
+]

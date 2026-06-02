@@ -1,0 +1,4425 @@
+{
+    "name": "new",
+    "securityToken": "new Token",
+    "sourceConnection": {
+        "name": "1",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNTFmYzcwYzNkYWYyOWNlM2Y4ZDdmMGRlMGE2Nzk5M2VlZWYzMjQ3Mzg0MjJiZWJjZGFlYzQ3OWFkMDliZTEzYzM4MjUyYWNjZTc5NDZhYzJlNmI4ZDM2MWE5YmJiZGM4NzZkYWYyMDQyYmJhZDQ2YTAxOGIxYzdhN2RjNTdmM2Q5M2Y3MDExYzNlMzZiNTVlNTM3NTA1MWYxOTEwZWY2NzlkYTZmZTMwZmZmNjYwMDM4N2VhYWJmNzdkYjQ0NWVjIiwiaXYiOiI0ZjdiOWYwMDU3ZmVlODk5YzY1MGRjOTA1MzU5Y2ZmOGJhYzA5YzhlM2VhZGNjNDMifQ=="
+        },
+        "id": "3Q2X2YUmmM"
+    },
+    "targetConnection": {
+        "name": "1",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiOTY0YmEyMGNkNDE0YzRhNjE0YmVjM2MwZWRmZGEwNDhjODEzY2I3ZDZmMDA0MGU3YjYyZDMzYmUwNWE4MzdmZDFiMGI3YTQ0MWIzNWViY2U3YzllZjMxNmQzYjcxZWRmYTliZDkyODVkMjkzNWExNmQ0MGRlZjIzNWJkNGRhYTUiLCJpdiI6ImQwODY2MzE2Y2U1ZDY1OTI3MDFhNDk5NWI1MzVkZjg5OWY5YWRlOWU0MjRiMzgxMSJ9"
+        },
+        "id": "-4EYH-L081"
+    },
+    "videoSettings": {
+        "frameExtractionRate": 1
+    },
+    "tags": [
+        {
+            "name": "goalkeeper",
+            "color": "#5db300"
+        },
+        {
+            "name": "head",
+            "color": "#e81123"
+        },
+        {
+            "name": "shoulde-left ",
+            "color": "#6917aa"
+        },
+        {
+            "name": "shoulde-lright",
+            "color": "#015cda"
+        },
+        {
+            "name": "hand-left",
+            "color": "#4894fe"
+        },
+        {
+            "name": "hand-right",
+            "color": "#6b849c"
+        },
+        {
+            "name": "knee-left",
+            "color": "#70c400"
+        },
+        {
+            "name": "knee-right",
+            "color": "#f7929a"
+        },
+        {
+            "name": "foot-left",
+            "color": "#257ffe"
+        },
+        {
+            "name": "foot-right",
+            "color": "#ddabe9"
+        }
+    ],
+    "id": "6vCUP7XGeg",
+    "activeLearningSettings": {
+        "autoDetect": false,
+        "predictTag": true,
+        "modelPathType": "coco"
+    },
+    "exportFormat": {
+        "providerType": "vottJson",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNDNlNDVjMzIwNjNkOTJhZThkNWY4MmE1YzY0ODQ1YjA2MjY1MTY2MDNkZmI4Y2IyYTAwODE5NjM4YjI4ZTAzN2QwOWU5ZjYxNzkyYmZmMzgzNmZhZjhhNzExMWRhOGNlIiwiaXYiOiI1ODg2NWIwMzk1NTZhZDUzYTQwY2FkMzY0ZTJjYzYzOGJjYjQ0MWI1YzhmYjQ3MWMifQ=="
+        }
+    },
+    "version": "2.2.0",
+    "lastVisitedAssetId": "0bff70acc6e138f6c32d71bfd89cd301",
+    "assets": {
+        "1d8c85a543666e26db15ee87f0b7091d": {
+            "format": "jpg",
+            "id": "1d8c85a543666e26db15ee87f0b7091d",
+            "name": "frame_00000.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00000.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fb1f81ee20c4a313be6783dff985cd71": {
+            "format": "jpg",
+            "id": "fb1f81ee20c4a313be6783dff985cd71",
+            "name": "frame_00001.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00001.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1db28a8b69b1a5c325d49157516e1881": {
+            "format": "jpg",
+            "id": "1db28a8b69b1a5c325d49157516e1881",
+            "name": "frame_00002.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00002.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b2dc836422570ecd84efc24f9122dd6d": {
+            "format": "jpg",
+            "id": "b2dc836422570ecd84efc24f9122dd6d",
+            "name": "frame_00003.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00003.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "80289d6ddb224f98e396bfba15e64a49": {
+            "format": "jpg",
+            "id": "80289d6ddb224f98e396bfba15e64a49",
+            "name": "frame_00004.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00004.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1dd34b203a5b7deed3887829e9b8437b": {
+            "format": "jpg",
+            "id": "1dd34b203a5b7deed3887829e9b8437b",
+            "name": "frame_00005.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00005.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "32438024dec181248f184f7c445f633c": {
+            "format": "jpg",
+            "id": "32438024dec181248f184f7c445f633c",
+            "name": "frame_00006.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00006.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d4de63d37d4fb4150de1de61a042c7a5": {
+            "format": "jpg",
+            "id": "d4de63d37d4fb4150de1de61a042c7a5",
+            "name": "frame_00007.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00007.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "55611179d8ab166ae13bf19a674042cf": {
+            "format": "jpg",
+            "id": "55611179d8ab166ae13bf19a674042cf",
+            "name": "frame_00008.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00008.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "79f78242451b8d9603cae1470f8a6b57": {
+            "format": "jpg",
+            "id": "79f78242451b8d9603cae1470f8a6b57",
+            "name": "frame_00009.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00009.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "697f158e2cf6436504195ebe3cf84def": {
+            "format": "jpg",
+            "id": "697f158e2cf6436504195ebe3cf84def",
+            "name": "frame_00010.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00010.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0e5ea0896ad859ba38e433f951700639": {
+            "format": "jpg",
+            "id": "0e5ea0896ad859ba38e433f951700639",
+            "name": "frame_00011.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00011.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "88f438cb181fa8741c4695378f59fdb6": {
+            "format": "jpg",
+            "id": "88f438cb181fa8741c4695378f59fdb6",
+            "name": "frame_00012.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00012.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d2239d996b1694e3eda8b10ec63c7d79": {
+            "format": "jpg",
+            "id": "d2239d996b1694e3eda8b10ec63c7d79",
+            "name": "frame_00013.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00013.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a1808a9253672ebb517971eef8c2cb32": {
+            "format": "jpg",
+            "id": "a1808a9253672ebb517971eef8c2cb32",
+            "name": "frame_00014.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00014.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d6e80265282d53784749b782c3d8bd06": {
+            "format": "jpg",
+            "id": "d6e80265282d53784749b782c3d8bd06",
+            "name": "frame_00015.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00015.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2b5a6bb6d74a3bc043bf86ea1a143afd": {
+            "format": "jpg",
+            "id": "2b5a6bb6d74a3bc043bf86ea1a143afd",
+            "name": "frame_00016.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00016.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "07106ba6d8d1ceeae62cbe76f7baf29c": {
+            "format": "jpg",
+            "id": "07106ba6d8d1ceeae62cbe76f7baf29c",
+            "name": "frame_00017.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00017.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c28ceb999e77a7848b8f0cfa32b81f8e": {
+            "format": "jpg",
+            "id": "c28ceb999e77a7848b8f0cfa32b81f8e",
+            "name": "frame_00018.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00018.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "871a937448235f475f1115f86300aa8b": {
+            "format": "jpg",
+            "id": "871a937448235f475f1115f86300aa8b",
+            "name": "frame_00019.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00019.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "295422ebafe4779aa5ea98ee038f5c83": {
+            "format": "jpg",
+            "id": "295422ebafe4779aa5ea98ee038f5c83",
+            "name": "frame_00020.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00020.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b33210a48ce45efa567d25f9ffed559e": {
+            "format": "jpg",
+            "id": "b33210a48ce45efa567d25f9ffed559e",
+            "name": "frame_00021.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00021.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "63da50461ba54baca9942c4a60d47fba": {
+            "format": "jpg",
+            "id": "63da50461ba54baca9942c4a60d47fba",
+            "name": "frame_00022.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00022.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "003e26ccbce17ca1b393ea743e900be0": {
+            "format": "jpg",
+            "id": "003e26ccbce17ca1b393ea743e900be0",
+            "name": "frame_00023.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00023.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "71914e27c8b0e0f8ed13bc70838c4ebe": {
+            "format": "jpg",
+            "id": "71914e27c8b0e0f8ed13bc70838c4ebe",
+            "name": "frame_00024.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00024.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4163a763f2956fa56a6c43674b0a7fec": {
+            "format": "jpg",
+            "id": "4163a763f2956fa56a6c43674b0a7fec",
+            "name": "frame_00025.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00025.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ddef6551e452023172bfe0bf25036f39": {
+            "format": "jpg",
+            "id": "ddef6551e452023172bfe0bf25036f39",
+            "name": "frame_00026.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00026.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "63c217ddeaae16486df6c8c3b488a31a": {
+            "format": "jpg",
+            "id": "63c217ddeaae16486df6c8c3b488a31a",
+            "name": "frame_00027.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00027.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "28050956d9b6137c2d58769d480251b7": {
+            "format": "jpg",
+            "id": "28050956d9b6137c2d58769d480251b7",
+            "name": "frame_00028.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00028.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5ac06a5192a67c499df57cdef9e30498": {
+            "format": "jpg",
+            "id": "5ac06a5192a67c499df57cdef9e30498",
+            "name": "frame_00029.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00029.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7a3f7eba385e235335bf08f1de4a4ff2": {
+            "format": "jpg",
+            "id": "7a3f7eba385e235335bf08f1de4a4ff2",
+            "name": "frame_00030.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00030.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "00d88b19449c751f4f4b61465d8977fd": {
+            "format": "jpg",
+            "id": "00d88b19449c751f4f4b61465d8977fd",
+            "name": "frame_00031.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00031.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6a83297a5ac982465601e8d4380517d9": {
+            "format": "jpg",
+            "id": "6a83297a5ac982465601e8d4380517d9",
+            "name": "frame_00032.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00032.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2b4de6be8eb0f89981c99b554d7e8763": {
+            "format": "jpg",
+            "id": "2b4de6be8eb0f89981c99b554d7e8763",
+            "name": "frame_00033.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00033.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b74f08dd2e1ae41e92675acdc4ba7431": {
+            "format": "jpg",
+            "id": "b74f08dd2e1ae41e92675acdc4ba7431",
+            "name": "frame_00034.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00034.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "39d1cdc7ebe5fd096f32df68f49886a1": {
+            "format": "jpg",
+            "id": "39d1cdc7ebe5fd096f32df68f49886a1",
+            "name": "frame_00035.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00035.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "14b121a208ae327a324c6ce35822bdac": {
+            "format": "jpg",
+            "id": "14b121a208ae327a324c6ce35822bdac",
+            "name": "frame_00036.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00036.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "195c5c180313edc194c4b3f0df791c5f": {
+            "format": "jpg",
+            "id": "195c5c180313edc194c4b3f0df791c5f",
+            "name": "frame_00037.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00037.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d8b0423093795d7092dbf7cc069de27f": {
+            "format": "jpg",
+            "id": "d8b0423093795d7092dbf7cc069de27f",
+            "name": "frame_00038.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00038.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "acf0259964fa6d5da15bb196fbdfe3ef": {
+            "format": "jpg",
+            "id": "acf0259964fa6d5da15bb196fbdfe3ef",
+            "name": "frame_00039.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00039.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d5615bfc6a93e5de01d6a6916bd54e13": {
+            "format": "jpg",
+            "id": "d5615bfc6a93e5de01d6a6916bd54e13",
+            "name": "frame_00040.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00040.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "bcf52a1b7357623514edcedcb096ec91": {
+            "format": "jpg",
+            "id": "bcf52a1b7357623514edcedcb096ec91",
+            "name": "frame_00041.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00041.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a0280acd7e703b36bd543b91689b0b59": {
+            "format": "jpg",
+            "id": "a0280acd7e703b36bd543b91689b0b59",
+            "name": "frame_00042.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00042.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c3667e165047de74b9f5db42d694ee8a": {
+            "format": "jpg",
+            "id": "c3667e165047de74b9f5db42d694ee8a",
+            "name": "frame_00043.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00043.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fb601c8281caad32edf72d1ea5897782": {
+            "format": "jpg",
+            "id": "fb601c8281caad32edf72d1ea5897782",
+            "name": "frame_00044.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00044.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6eb45481b52a6597985cfbf05685d8df": {
+            "format": "jpg",
+            "id": "6eb45481b52a6597985cfbf05685d8df",
+            "name": "frame_00045.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00045.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b884891b6a372330964189cea2b188a8": {
+            "format": "jpg",
+            "id": "b884891b6a372330964189cea2b188a8",
+            "name": "frame_00046.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00046.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f57b141ae6f7fa1e8be71720148224ee": {
+            "format": "jpg",
+            "id": "f57b141ae6f7fa1e8be71720148224ee",
+            "name": "frame_00047.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00047.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a63a83d110e473b7df971b51b02a67b4": {
+            "format": "jpg",
+            "id": "a63a83d110e473b7df971b51b02a67b4",
+            "name": "frame_00048.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00048.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "13158da6d349a84c580a4e500cd3cb74": {
+            "format": "jpg",
+            "id": "13158da6d349a84c580a4e500cd3cb74",
+            "name": "frame_00049.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00049.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8ea765c58b0f82eef999405dd20ce845": {
+            "format": "jpg",
+            "id": "8ea765c58b0f82eef999405dd20ce845",
+            "name": "frame_00050.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00050.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d227f0ad31cfa4b6206dbfea3d248255": {
+            "format": "jpg",
+            "id": "d227f0ad31cfa4b6206dbfea3d248255",
+            "name": "frame_00051.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00051.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "56b073b74df49d1e90beeed47611ddf1": {
+            "format": "jpg",
+            "id": "56b073b74df49d1e90beeed47611ddf1",
+            "name": "frame_00052.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00052.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5dc02258af6ca8498c422a81938ae0de": {
+            "format": "jpg",
+            "id": "5dc02258af6ca8498c422a81938ae0de",
+            "name": "frame_00053.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00053.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "28125921b2a9ca888f8e71895cbf9580": {
+            "format": "jpg",
+            "id": "28125921b2a9ca888f8e71895cbf9580",
+            "name": "frame_00054.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00054.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1c612ee21e170b2eaa4b006a9a81c20a": {
+            "format": "jpg",
+            "id": "1c612ee21e170b2eaa4b006a9a81c20a",
+            "name": "frame_00055.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00055.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0859e839063062974fa5cbe834467944": {
+            "format": "jpg",
+            "id": "0859e839063062974fa5cbe834467944",
+            "name": "frame_00056.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00056.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c9848484292d0d4f5ea90ab6c698febd": {
+            "format": "jpg",
+            "id": "c9848484292d0d4f5ea90ab6c698febd",
+            "name": "frame_00057.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00057.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3759d8993784e5b8248ebf8b6865e1c0": {
+            "format": "jpg",
+            "id": "3759d8993784e5b8248ebf8b6865e1c0",
+            "name": "frame_00058.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00058.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "cfc8742ac46cdc8924b985f73a9f7794": {
+            "format": "jpg",
+            "id": "cfc8742ac46cdc8924b985f73a9f7794",
+            "name": "frame_00059.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00059.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f53206b6f3b6ad53bcf3aaa08e09b1a0": {
+            "format": "jpg",
+            "id": "f53206b6f3b6ad53bcf3aaa08e09b1a0",
+            "name": "frame_00060.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00060.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f7057c70ee40224f7e47f18ef5fa92a5": {
+            "format": "jpg",
+            "id": "f7057c70ee40224f7e47f18ef5fa92a5",
+            "name": "frame_00061.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00061.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "78a2e9e89f4cbec49307f991c8e9e930": {
+            "format": "jpg",
+            "id": "78a2e9e89f4cbec49307f991c8e9e930",
+            "name": "frame_00062.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00062.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "db615c97f0b831c96341473affd4c988": {
+            "format": "jpg",
+            "id": "db615c97f0b831c96341473affd4c988",
+            "name": "frame_00063.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00063.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "44da62319c04a49b89451662bb147bca": {
+            "format": "jpg",
+            "id": "44da62319c04a49b89451662bb147bca",
+            "name": "frame_00064.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00064.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "21cb2aeec2ea51b5cc09c59ff1ee842b": {
+            "format": "jpg",
+            "id": "21cb2aeec2ea51b5cc09c59ff1ee842b",
+            "name": "frame_00065.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00065.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "06eb4c2fcc36fd440d850e9498ee228c": {
+            "format": "jpg",
+            "id": "06eb4c2fcc36fd440d850e9498ee228c",
+            "name": "frame_00066.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00066.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a10ac6727eea8b8713d9cd4c269dc9ae": {
+            "format": "jpg",
+            "id": "a10ac6727eea8b8713d9cd4c269dc9ae",
+            "name": "frame_00067.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00067.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "81213470fb2d26c1cb81e92de4eda781": {
+            "format": "jpg",
+            "id": "81213470fb2d26c1cb81e92de4eda781",
+            "name": "frame_00068.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00068.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2764136710a8e973f4e48468ad9e2cf1": {
+            "format": "jpg",
+            "id": "2764136710a8e973f4e48468ad9e2cf1",
+            "name": "frame_00069.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00069.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "04d003e85323993b5aa0d6c77f3dfdaa": {
+            "format": "jpg",
+            "id": "04d003e85323993b5aa0d6c77f3dfdaa",
+            "name": "frame_00070.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00070.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fbc209202cc93412976b48ca7d7706b0": {
+            "format": "jpg",
+            "id": "fbc209202cc93412976b48ca7d7706b0",
+            "name": "frame_00071.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00071.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "70f83cd836c55b0b09fad5a526e33ca6": {
+            "format": "jpg",
+            "id": "70f83cd836c55b0b09fad5a526e33ca6",
+            "name": "frame_00072.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00072.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "96c7d7d64b425baad99d7ed50f71759d": {
+            "format": "jpg",
+            "id": "96c7d7d64b425baad99d7ed50f71759d",
+            "name": "frame_00073.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00073.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8bf9187e0c84e1c2ae0a1d37d4750767": {
+            "format": "jpg",
+            "id": "8bf9187e0c84e1c2ae0a1d37d4750767",
+            "name": "frame_00074.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00074.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6cc20ef782630bc73db326188deff757": {
+            "format": "jpg",
+            "id": "6cc20ef782630bc73db326188deff757",
+            "name": "frame_00075.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00075.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "16e4492837184bb4f26dd4122862039b": {
+            "format": "jpg",
+            "id": "16e4492837184bb4f26dd4122862039b",
+            "name": "frame_00076.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00076.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "279031421fe5c68ddeb57ea1d7f39e17": {
+            "format": "jpg",
+            "id": "279031421fe5c68ddeb57ea1d7f39e17",
+            "name": "frame_00077.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00077.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "acccd133ddf520efbcaa0a1febd98e14": {
+            "format": "jpg",
+            "id": "acccd133ddf520efbcaa0a1febd98e14",
+            "name": "frame_00078.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00078.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e4480e903bc054e50d9e9d198518a606": {
+            "format": "jpg",
+            "id": "e4480e903bc054e50d9e9d198518a606",
+            "name": "frame_00079.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00079.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8676b1e241f34cf25128511973b3ff66": {
+            "format": "jpg",
+            "id": "8676b1e241f34cf25128511973b3ff66",
+            "name": "frame_00080.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00080.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9c9e26f2bb11edb240f4bf496fefb027": {
+            "format": "jpg",
+            "id": "9c9e26f2bb11edb240f4bf496fefb027",
+            "name": "frame_00081.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00081.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "00236d0ba002ceb205144a29690050a9": {
+            "format": "jpg",
+            "id": "00236d0ba002ceb205144a29690050a9",
+            "name": "frame_00082.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00082.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6af65f67e946d9fa481d7ac4aef62910": {
+            "format": "jpg",
+            "id": "6af65f67e946d9fa481d7ac4aef62910",
+            "name": "frame_00083.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00083.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5ea70f729d9c9d8810d3c775f7251662": {
+            "format": "jpg",
+            "id": "5ea70f729d9c9d8810d3c775f7251662",
+            "name": "frame_00084.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00084.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7f8ca0fa048a946593be6076f6cb7aa4": {
+            "format": "jpg",
+            "id": "7f8ca0fa048a946593be6076f6cb7aa4",
+            "name": "frame_00085.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00085.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fdfddf4b603c69811bfd9731e0b6f927": {
+            "format": "jpg",
+            "id": "fdfddf4b603c69811bfd9731e0b6f927",
+            "name": "frame_00086.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00086.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "02e6d5c2672c5b5bb8b6b1f758677304": {
+            "format": "jpg",
+            "id": "02e6d5c2672c5b5bb8b6b1f758677304",
+            "name": "frame_00087.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00087.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "91c0d409bd10bb3e2c743565fead00d7": {
+            "format": "jpg",
+            "id": "91c0d409bd10bb3e2c743565fead00d7",
+            "name": "frame_00088.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00088.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5a55c6163fb24d1d1f71967b2efa8ef9": {
+            "format": "jpg",
+            "id": "5a55c6163fb24d1d1f71967b2efa8ef9",
+            "name": "frame_00089.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00089.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "52111e4a1133395279088276b2dc8afd": {
+            "format": "jpg",
+            "id": "52111e4a1133395279088276b2dc8afd",
+            "name": "frame_00090.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00090.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "53ba75ad31fb0d1d7abfdc37eaaee385": {
+            "format": "jpg",
+            "id": "53ba75ad31fb0d1d7abfdc37eaaee385",
+            "name": "frame_00091.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00091.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f8422bd96a9b904c5b8494c49e1aed56": {
+            "format": "jpg",
+            "id": "f8422bd96a9b904c5b8494c49e1aed56",
+            "name": "frame_00092.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00092.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8fa309ddb404ec72920f473080bced5c": {
+            "format": "jpg",
+            "id": "8fa309ddb404ec72920f473080bced5c",
+            "name": "frame_00093.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00093.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fa04eecbc62185dd1b532dda7a2d588b": {
+            "format": "jpg",
+            "id": "fa04eecbc62185dd1b532dda7a2d588b",
+            "name": "frame_00094.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00094.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9049e3d36dd68dbe218a4ac4936d121c": {
+            "format": "jpg",
+            "id": "9049e3d36dd68dbe218a4ac4936d121c",
+            "name": "frame_00095.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00095.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "21bd54db617b23cc0fd47301ddffb458": {
+            "format": "jpg",
+            "id": "21bd54db617b23cc0fd47301ddffb458",
+            "name": "frame_00096.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00096.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e54eb867de2d1decd60bb3de42e0f45a": {
+            "format": "jpg",
+            "id": "e54eb867de2d1decd60bb3de42e0f45a",
+            "name": "frame_00097.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00097.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d631f951ba42b5707892920d1793760e": {
+            "format": "jpg",
+            "id": "d631f951ba42b5707892920d1793760e",
+            "name": "frame_00098.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00098.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "413fd46b9db3f763b87bb7891fc3fdbf": {
+            "format": "jpg",
+            "id": "413fd46b9db3f763b87bb7891fc3fdbf",
+            "name": "frame_00099.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00099.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9f9f7ac0856034be27166412b6d69ba8": {
+            "format": "jpg",
+            "id": "9f9f7ac0856034be27166412b6d69ba8",
+            "name": "frame_00100.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00100.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0c647f6023436e0ef4bca2dd0ba37de2": {
+            "format": "jpg",
+            "id": "0c647f6023436e0ef4bca2dd0ba37de2",
+            "name": "frame_00101.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00101.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2a21dd2eceb1daa6ff3f2e5cc4705c29": {
+            "format": "jpg",
+            "id": "2a21dd2eceb1daa6ff3f2e5cc4705c29",
+            "name": "frame_00102.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00102.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "41b3b06008738fe7c573f068e89732e1": {
+            "format": "jpg",
+            "id": "41b3b06008738fe7c573f068e89732e1",
+            "name": "frame_00103.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00103.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a48b16f7d8c6a23dfcf600c6bb198a7a": {
+            "format": "jpg",
+            "id": "a48b16f7d8c6a23dfcf600c6bb198a7a",
+            "name": "frame_00104.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00104.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "eb82acad80609ff3c102969f12b8fc51": {
+            "format": "jpg",
+            "id": "eb82acad80609ff3c102969f12b8fc51",
+            "name": "frame_00105.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00105.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f68cb380225ca57e2c62f94ae4cb8935": {
+            "format": "jpg",
+            "id": "f68cb380225ca57e2c62f94ae4cb8935",
+            "name": "frame_00106.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00106.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1edb318403f07ef542e195067bfdf2ff": {
+            "format": "jpg",
+            "id": "1edb318403f07ef542e195067bfdf2ff",
+            "name": "frame_00107.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00107.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0cc798dfe3516ffd1830832cb8537807": {
+            "format": "jpg",
+            "id": "0cc798dfe3516ffd1830832cb8537807",
+            "name": "frame_00108.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00108.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "458d285409a07c8530d4552264604d9c": {
+            "format": "jpg",
+            "id": "458d285409a07c8530d4552264604d9c",
+            "name": "frame_00109.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00109.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6360ca740147348238764dadd5c4a016": {
+            "format": "jpg",
+            "id": "6360ca740147348238764dadd5c4a016",
+            "name": "frame_00110.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00110.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0cfbff21f3e0cf200948158a1eb706d1": {
+            "format": "jpg",
+            "id": "0cfbff21f3e0cf200948158a1eb706d1",
+            "name": "frame_00111.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00111.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2c6b66cbdb55abc3fff3cd9faa1f8753": {
+            "format": "jpg",
+            "id": "2c6b66cbdb55abc3fff3cd9faa1f8753",
+            "name": "frame_00112.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00112.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3b17ef3333733ac8d98dfea0bd412ffc": {
+            "format": "jpg",
+            "id": "3b17ef3333733ac8d98dfea0bd412ffc",
+            "name": "frame_00113.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00113.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "980a127bc75a24f82c33be30661886b7": {
+            "format": "jpg",
+            "id": "980a127bc75a24f82c33be30661886b7",
+            "name": "frame_00114.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00114.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f88c734642e8cff8c2a7c2f7f175a9f7": {
+            "format": "jpg",
+            "id": "f88c734642e8cff8c2a7c2f7f175a9f7",
+            "name": "frame_00115.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00115.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2d39d8c36526b2fa38899462aa212a5d": {
+            "format": "jpg",
+            "id": "2d39d8c36526b2fa38899462aa212a5d",
+            "name": "frame_00116.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00116.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "57efad6ef080ffe536b0fb3f7de6b63f": {
+            "format": "jpg",
+            "id": "57efad6ef080ffe536b0fb3f7de6b63f",
+            "name": "frame_00117.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00117.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d9ec9af35d0fd669b73c3f9451cafde2": {
+            "format": "jpg",
+            "id": "d9ec9af35d0fd669b73c3f9451cafde2",
+            "name": "frame_00118.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00118.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "76ba797b373488f4aa82c1b7b99c72c8": {
+            "format": "jpg",
+            "id": "76ba797b373488f4aa82c1b7b99c72c8",
+            "name": "frame_00119.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00119.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6b7fca26a6084fea7c934b7c862ba9bb": {
+            "format": "jpg",
+            "id": "6b7fca26a6084fea7c934b7c862ba9bb",
+            "name": "frame_00120.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00120.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3eab0535ab0a3c1394e307e05840bfa8": {
+            "format": "jpg",
+            "id": "3eab0535ab0a3c1394e307e05840bfa8",
+            "name": "frame_00121.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00121.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "197ec170c48df93c035d371f0e0495c1": {
+            "format": "jpg",
+            "id": "197ec170c48df93c035d371f0e0495c1",
+            "name": "frame_00122.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00122.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "15a9ae71aae310e94178aba85f5f36ba": {
+            "format": "jpg",
+            "id": "15a9ae71aae310e94178aba85f5f36ba",
+            "name": "frame_00123.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00123.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ee8d8ef273ff2530c10f2782f00ed369": {
+            "format": "jpg",
+            "id": "ee8d8ef273ff2530c10f2782f00ed369",
+            "name": "frame_00124.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00124.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "601aff73ad109a822e08128cab590657": {
+            "format": "jpg",
+            "id": "601aff73ad109a822e08128cab590657",
+            "name": "frame_00125.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00125.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "383627f836ae332be7c88abe21ea56d8": {
+            "format": "jpg",
+            "id": "383627f836ae332be7c88abe21ea56d8",
+            "name": "frame_00126.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00126.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ac55aedb2169d257935d5527c72c185f": {
+            "format": "jpg",
+            "id": "ac55aedb2169d257935d5527c72c185f",
+            "name": "frame_00127.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00127.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0cf7d5023361ccf45db87c33abd8b72c": {
+            "format": "jpg",
+            "id": "0cf7d5023361ccf45db87c33abd8b72c",
+            "name": "frame_00128.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00128.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fbdfcee21414f85e362f80aa7b912b6d": {
+            "format": "jpg",
+            "id": "fbdfcee21414f85e362f80aa7b912b6d",
+            "name": "frame_00130.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00130.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5c8dbcce5b0f8e4e497557366cd9d74f": {
+            "format": "jpg",
+            "id": "5c8dbcce5b0f8e4e497557366cd9d74f",
+            "name": "frame_00129.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00129.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a995ac660ea282b05c8e5f4452f76c33": {
+            "format": "jpg",
+            "id": "a995ac660ea282b05c8e5f4452f76c33",
+            "name": "frame_00131.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00131.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "602081d635b9ed5fe57287e718356474": {
+            "format": "jpg",
+            "id": "602081d635b9ed5fe57287e718356474",
+            "name": "frame_00132.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00132.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "93d2115c3732691a99d670dec893ca47": {
+            "format": "jpg",
+            "id": "93d2115c3732691a99d670dec893ca47",
+            "name": "frame_00133.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00133.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3cdd2d2cc0080cd89c0a80f5e149be2d": {
+            "format": "jpg",
+            "id": "3cdd2d2cc0080cd89c0a80f5e149be2d",
+            "name": "frame_00134.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00134.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "37884bc9db4567b54989c67eb82b6e71": {
+            "format": "jpg",
+            "id": "37884bc9db4567b54989c67eb82b6e71",
+            "name": "frame_00135.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00135.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a32ae12b5ecdfc9e02aba363e3d4facf": {
+            "format": "jpg",
+            "id": "a32ae12b5ecdfc9e02aba363e3d4facf",
+            "name": "frame_00361.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00361.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "92a793d53f5ffe205f7d22166bee2eb1": {
+            "format": "jpg",
+            "id": "92a793d53f5ffe205f7d22166bee2eb1",
+            "name": "frame_00360.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00360.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ed8d0fdcff51f901b8b41a8b5efbd79c": {
+            "format": "jpg",
+            "id": "ed8d0fdcff51f901b8b41a8b5efbd79c",
+            "name": "frame_00359.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00359.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "04e0d9943c5cfe06876d658a07cba914": {
+            "format": "jpg",
+            "id": "04e0d9943c5cfe06876d658a07cba914",
+            "name": "frame_00358.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00358.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8c1244cc3d6d7257921e815c9f43e9bd": {
+            "format": "jpg",
+            "id": "8c1244cc3d6d7257921e815c9f43e9bd",
+            "name": "frame_00357.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00357.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7f0db4e585541bb00a634ad2b83a477e": {
+            "format": "jpg",
+            "id": "7f0db4e585541bb00a634ad2b83a477e",
+            "name": "frame_00356.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00356.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5a96f21e570be0e24d2d302be62731bd": {
+            "format": "jpg",
+            "id": "5a96f21e570be0e24d2d302be62731bd",
+            "name": "frame_00355.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00355.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "18940e5e9bbc7c9824fed62736703d7d": {
+            "format": "jpg",
+            "id": "18940e5e9bbc7c9824fed62736703d7d",
+            "name": "frame_00354.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00354.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6a1da07ff2db04defb21435ce8ec03f9": {
+            "format": "jpg",
+            "id": "6a1da07ff2db04defb21435ce8ec03f9",
+            "name": "frame_00353.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00353.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f0c8fc3d5ddd31130d21fa97360205c8": {
+            "format": "jpg",
+            "id": "f0c8fc3d5ddd31130d21fa97360205c8",
+            "name": "frame_00352.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00352.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b14d99e540a4ea9533101842dad1134d": {
+            "format": "jpg",
+            "id": "b14d99e540a4ea9533101842dad1134d",
+            "name": "frame_00351.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00351.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1966a51fdb45ec21bf0d4647a1087f74": {
+            "format": "jpg",
+            "id": "1966a51fdb45ec21bf0d4647a1087f74",
+            "name": "frame_00350.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00350.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9a02b4690b986e17776ca87e8b1525d1": {
+            "format": "jpg",
+            "id": "9a02b4690b986e17776ca87e8b1525d1",
+            "name": "frame_00349.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00349.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0450a777e7399a3bcbdb7418c7ae6522": {
+            "format": "jpg",
+            "id": "0450a777e7399a3bcbdb7418c7ae6522",
+            "name": "frame_00348.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00348.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f6e1776b3f804d45598ea8d7fde0694a": {
+            "format": "jpg",
+            "id": "f6e1776b3f804d45598ea8d7fde0694a",
+            "name": "frame_00347.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00347.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "59bd477f608981f8ef1c5517dfc014b3": {
+            "format": "jpg",
+            "id": "59bd477f608981f8ef1c5517dfc014b3",
+            "name": "frame_00346.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00346.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d2fba89d0f6d8bcc21a35e3848c20446": {
+            "format": "jpg",
+            "id": "d2fba89d0f6d8bcc21a35e3848c20446",
+            "name": "frame_00345.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00345.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c65eefa6b35b7f2976d330422e03c607": {
+            "format": "jpg",
+            "id": "c65eefa6b35b7f2976d330422e03c607",
+            "name": "frame_00344.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00344.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9d1ce991c22316e0069d1106c3eab058": {
+            "format": "jpg",
+            "id": "9d1ce991c22316e0069d1106c3eab058",
+            "name": "frame_00343.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00343.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2403837c2d7fc9003c7513a26f089aed": {
+            "format": "jpg",
+            "id": "2403837c2d7fc9003c7513a26f089aed",
+            "name": "frame_00342.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00342.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fab3eb922a79d8a97c5a718b8eaf67bc": {
+            "format": "jpg",
+            "id": "fab3eb922a79d8a97c5a718b8eaf67bc",
+            "name": "frame_00341.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00341.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5b93e9bf4557504e1b3454df24f9d8c4": {
+            "format": "jpg",
+            "id": "5b93e9bf4557504e1b3454df24f9d8c4",
+            "name": "frame_00340.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00340.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b59b9b9e6355024e067dda32669febf2": {
+            "format": "jpg",
+            "id": "b59b9b9e6355024e067dda32669febf2",
+            "name": "frame_00339.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00339.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "29aacbaf24eb7a786c5fb3c9496e1294": {
+            "format": "jpg",
+            "id": "29aacbaf24eb7a786c5fb3c9496e1294",
+            "name": "frame_00338.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00338.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1cc8bce3adc71fa1af3119f656eabeb0": {
+            "format": "jpg",
+            "id": "1cc8bce3adc71fa1af3119f656eabeb0",
+            "name": "frame_00337.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00337.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f04a7900bf81628b62c4b7ede4c1f0c1": {
+            "format": "jpg",
+            "id": "f04a7900bf81628b62c4b7ede4c1f0c1",
+            "name": "frame_00336.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00336.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "704866b0612e5f54802ae78b674e3947": {
+            "format": "jpg",
+            "id": "704866b0612e5f54802ae78b674e3947",
+            "name": "frame_00335.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00335.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6524332e9982ef9e0b938a2e30c49b03": {
+            "format": "jpg",
+            "id": "6524332e9982ef9e0b938a2e30c49b03",
+            "name": "frame_00334.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00334.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7cde45af64723d7c84d312a1a12f7f12": {
+            "format": "jpg",
+            "id": "7cde45af64723d7c84d312a1a12f7f12",
+            "name": "frame_00137.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00137.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4ea45f5222ec982e6fea426f1e0a823b": {
+            "format": "jpg",
+            "id": "4ea45f5222ec982e6fea426f1e0a823b",
+            "name": "frame_00136.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00136.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a5f4a6a5020e11719148ba1a22763667": {
+            "format": "jpg",
+            "id": "a5f4a6a5020e11719148ba1a22763667",
+            "name": "frame_00138.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00138.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a9350eddeaf27ebb4aac3a2693149345": {
+            "format": "jpg",
+            "id": "a9350eddeaf27ebb4aac3a2693149345",
+            "name": "frame_00139.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00139.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "691e15c5b2fdaab2c4ab7432cec7689a": {
+            "format": "jpg",
+            "id": "691e15c5b2fdaab2c4ab7432cec7689a",
+            "name": "frame_00140.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00140.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4c31f053604dff486c010af156b0d296": {
+            "format": "jpg",
+            "id": "4c31f053604dff486c010af156b0d296",
+            "name": "frame_00141.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00141.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c70c912b22899c037306dcd0fbb39713": {
+            "format": "jpg",
+            "id": "c70c912b22899c037306dcd0fbb39713",
+            "name": "frame_00142.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00142.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5fd345718c6efc2c34b058d8d2b57def": {
+            "format": "jpg",
+            "id": "5fd345718c6efc2c34b058d8d2b57def",
+            "name": "frame_00143.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00143.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7bfb7dd7c0a4848cc050ada04a5613e4": {
+            "format": "jpg",
+            "id": "7bfb7dd7c0a4848cc050ada04a5613e4",
+            "name": "frame_00144.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00144.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "97a75b8e39e1ca7c1b9bbbc78f12e69e": {
+            "format": "jpg",
+            "id": "97a75b8e39e1ca7c1b9bbbc78f12e69e",
+            "name": "frame_00145.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00145.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "07ff4c6a77de786af79c67b1927bc53c": {
+            "format": "jpg",
+            "id": "07ff4c6a77de786af79c67b1927bc53c",
+            "name": "frame_00146.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00146.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "dcead4c4fde229b53557db3601c2a665": {
+            "format": "jpg",
+            "id": "dcead4c4fde229b53557db3601c2a665",
+            "name": "frame_00147.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00147.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "69dd39e00b4b3b08b91040ac64c18c60": {
+            "format": "jpg",
+            "id": "69dd39e00b4b3b08b91040ac64c18c60",
+            "name": "frame_00148.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00148.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a3302ed39a423ed8d85108ce7f0a9188": {
+            "format": "jpg",
+            "id": "a3302ed39a423ed8d85108ce7f0a9188",
+            "name": "frame_00149.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00149.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d43586187361eb11b47411280163b165": {
+            "format": "jpg",
+            "id": "d43586187361eb11b47411280163b165",
+            "name": "frame_00150.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00150.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "eca292974c951b1592be8b1bd9821917": {
+            "format": "jpg",
+            "id": "eca292974c951b1592be8b1bd9821917",
+            "name": "frame_00151.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00151.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "57eb0ed033bc587c1ed1b505fd5670f4": {
+            "format": "jpg",
+            "id": "57eb0ed033bc587c1ed1b505fd5670f4",
+            "name": "frame_00152.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00152.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f54eff64cd5f1acdb4af1aed61e9102c": {
+            "format": "jpg",
+            "id": "f54eff64cd5f1acdb4af1aed61e9102c",
+            "name": "frame_00153.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00153.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c8a26f0bbe4a2540299f0124d35d26c2": {
+            "format": "jpg",
+            "id": "c8a26f0bbe4a2540299f0124d35d26c2",
+            "name": "frame_00154.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00154.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "461545661c097786aa1ee18b61267564": {
+            "format": "jpg",
+            "id": "461545661c097786aa1ee18b61267564",
+            "name": "frame_00155.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00155.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "89ed8c9fc1813cb341663223216dfa6f": {
+            "format": "jpg",
+            "id": "89ed8c9fc1813cb341663223216dfa6f",
+            "name": "frame_00156.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00156.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e9239c9ac0b67d24c8f662106c2662ca": {
+            "format": "jpg",
+            "id": "e9239c9ac0b67d24c8f662106c2662ca",
+            "name": "frame_00157.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00157.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "45032f9b6f39a0f43d1961c4256a446a": {
+            "format": "jpg",
+            "id": "45032f9b6f39a0f43d1961c4256a446a",
+            "name": "frame_00158.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00158.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "937b18c785feda390c3fdeb061a5bd35": {
+            "format": "jpg",
+            "id": "937b18c785feda390c3fdeb061a5bd35",
+            "name": "frame_00159.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00159.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d65322766b9006997aec4d6ac6545f30": {
+            "format": "jpg",
+            "id": "d65322766b9006997aec4d6ac6545f30",
+            "name": "frame_00160.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00160.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e5898b6ad014035e9384ee5fd6cc488f": {
+            "format": "jpg",
+            "id": "e5898b6ad014035e9384ee5fd6cc488f",
+            "name": "frame_00161.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00161.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b582c0a47f0d61ba8cc17a676e41b78b": {
+            "format": "jpg",
+            "id": "b582c0a47f0d61ba8cc17a676e41b78b",
+            "name": "frame_00162.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00162.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "25a8b0804960e79f3a57944c6e0ac667": {
+            "format": "jpg",
+            "id": "25a8b0804960e79f3a57944c6e0ac667",
+            "name": "frame_00163.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00163.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "28055d5a18cb761b0655383e8b739f9f": {
+            "format": "jpg",
+            "id": "28055d5a18cb761b0655383e8b739f9f",
+            "name": "frame_00164.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00164.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1d6659f902216f9b47c0da6977b0ad93": {
+            "format": "jpg",
+            "id": "1d6659f902216f9b47c0da6977b0ad93",
+            "name": "frame_00165.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00165.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5b78bcfbc8469d2260616bfd6b5c3363": {
+            "format": "jpg",
+            "id": "5b78bcfbc8469d2260616bfd6b5c3363",
+            "name": "frame_00166.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00166.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7dd1eec23948744eb18b45dd7e09540a": {
+            "format": "jpg",
+            "id": "7dd1eec23948744eb18b45dd7e09540a",
+            "name": "frame_00167.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00167.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4cf5361af77c5bad142e50cd820a7f1b": {
+            "format": "jpg",
+            "id": "4cf5361af77c5bad142e50cd820a7f1b",
+            "name": "frame_00168.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00168.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4189f814ad5e7dcc0fdcb55055c80390": {
+            "format": "jpg",
+            "id": "4189f814ad5e7dcc0fdcb55055c80390",
+            "name": "frame_00169.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00169.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "033608ec0f4a670bf1af9c0bf843639d": {
+            "format": "jpg",
+            "id": "033608ec0f4a670bf1af9c0bf843639d",
+            "name": "frame_00170.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00170.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1ac9250cfb1657a9384e4cc0116234a0": {
+            "format": "jpg",
+            "id": "1ac9250cfb1657a9384e4cc0116234a0",
+            "name": "frame_00171.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00171.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f25f4ca8e12ada4a52d7f66dda1ffb25": {
+            "format": "jpg",
+            "id": "f25f4ca8e12ada4a52d7f66dda1ffb25",
+            "name": "frame_00302.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00302.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "be0ef6e61b6097ace7cbac6532c6a6a7": {
+            "format": "jpg",
+            "id": "be0ef6e61b6097ace7cbac6532c6a6a7",
+            "name": "frame_00301.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00301.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0c4f2a358f5a287d42384bf4a9b14ab6": {
+            "format": "jpg",
+            "id": "0c4f2a358f5a287d42384bf4a9b14ab6",
+            "name": "frame_00303.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00303.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7bb6ffd22d951038d0cf60cadec695be": {
+            "format": "jpg",
+            "id": "7bb6ffd22d951038d0cf60cadec695be",
+            "name": "frame_00304.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00304.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "75f7175b1c3d80c3c2e669e05faed284": {
+            "format": "jpg",
+            "id": "75f7175b1c3d80c3c2e669e05faed284",
+            "name": "frame_00305.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00305.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "bb7c6e7470001d45613e575ae91306e6": {
+            "format": "jpg",
+            "id": "bb7c6e7470001d45613e575ae91306e6",
+            "name": "frame_00333.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00333.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "398bafe5bb9de2fee0ae2182b9f7c255": {
+            "format": "jpg",
+            "id": "398bafe5bb9de2fee0ae2182b9f7c255",
+            "name": "frame_00332.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00332.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "34a891726288827597855a76f43014eb": {
+            "format": "jpg",
+            "id": "34a891726288827597855a76f43014eb",
+            "name": "frame_00331.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00331.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "59219068bd94a7086c1ea238612c158d": {
+            "format": "jpg",
+            "id": "59219068bd94a7086c1ea238612c158d",
+            "name": "frame_00330.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00330.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "51d823bd6d01144ad1566fbeaa10e598": {
+            "format": "jpg",
+            "id": "51d823bd6d01144ad1566fbeaa10e598",
+            "name": "frame_00329.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00329.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "43e250a52fca5bf2b56e71aadfd9b1c3": {
+            "format": "jpg",
+            "id": "43e250a52fca5bf2b56e71aadfd9b1c3",
+            "name": "frame_00306.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00306.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f4f55d527f5aaee9e68e7c2bf1a383f2": {
+            "format": "jpg",
+            "id": "f4f55d527f5aaee9e68e7c2bf1a383f2",
+            "name": "frame_00307.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00307.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6a15e87f637d801a59eacc8d0e83a2a0": {
+            "format": "jpg",
+            "id": "6a15e87f637d801a59eacc8d0e83a2a0",
+            "name": "frame_00308.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00308.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9546d6dd241c49d78fbb1008044105ac": {
+            "format": "jpg",
+            "id": "9546d6dd241c49d78fbb1008044105ac",
+            "name": "frame_00309.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00309.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3faf2008df0d1cfb0b4018e4d7c04ef2": {
+            "format": "jpg",
+            "id": "3faf2008df0d1cfb0b4018e4d7c04ef2",
+            "name": "frame_00310.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00310.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "45eb2cd6391114f199cb9819562c687c": {
+            "format": "jpg",
+            "id": "45eb2cd6391114f199cb9819562c687c",
+            "name": "frame_00311.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00311.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d916891ba414c0dc8d3bf8512ae9a93d": {
+            "format": "jpg",
+            "id": "d916891ba414c0dc8d3bf8512ae9a93d",
+            "name": "frame_00312.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00312.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "be17e4fecd3c8c68b1bf86df6046b705": {
+            "format": "jpg",
+            "id": "be17e4fecd3c8c68b1bf86df6046b705",
+            "name": "frame_00313.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00313.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "410bafc5db765532788a44aaedf676b7": {
+            "format": "jpg",
+            "id": "410bafc5db765532788a44aaedf676b7",
+            "name": "frame_00314.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00314.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "861917204965bda885f843baaac80aa9": {
+            "format": "jpg",
+            "id": "861917204965bda885f843baaac80aa9",
+            "name": "frame_00315.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00315.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7e2a4d58903c227fc25bab2f808f84cf": {
+            "format": "jpg",
+            "id": "7e2a4d58903c227fc25bab2f808f84cf",
+            "name": "frame_00328.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00328.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a963b7fec634842fd02d7c4a24b014db": {
+            "format": "jpg",
+            "id": "a963b7fec634842fd02d7c4a24b014db",
+            "name": "frame_00327.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00327.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "19c965752ccf4504e931bacbd556a31a": {
+            "format": "jpg",
+            "id": "19c965752ccf4504e931bacbd556a31a",
+            "name": "frame_00326.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00326.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5b1f98101f30659441068a632af830e4": {
+            "format": "jpg",
+            "id": "5b1f98101f30659441068a632af830e4",
+            "name": "frame_00325.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00325.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4ffad578a324a067530617588964fdaa": {
+            "format": "jpg",
+            "id": "4ffad578a324a067530617588964fdaa",
+            "name": "frame_00324.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00324.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f3a5f70fb661ce170a00a8a5b7f2df0f": {
+            "format": "jpg",
+            "id": "f3a5f70fb661ce170a00a8a5b7f2df0f",
+            "name": "frame_00316.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00316.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "34eaf07af941bfca77b6fa72e5ef38be": {
+            "format": "jpg",
+            "id": "34eaf07af941bfca77b6fa72e5ef38be",
+            "name": "frame_00317.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00317.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "56ec8954111716df5634f55005c9f413": {
+            "format": "jpg",
+            "id": "56ec8954111716df5634f55005c9f413",
+            "name": "frame_00318.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00318.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a621896427bb5d058d664d671a5fb8df": {
+            "format": "jpg",
+            "id": "a621896427bb5d058d664d671a5fb8df",
+            "name": "frame_00323.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00323.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a9dd1f0a8372271afd8ea6fa66e04371": {
+            "format": "jpg",
+            "id": "a9dd1f0a8372271afd8ea6fa66e04371",
+            "name": "frame_00322.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00322.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "40a907d44accc78aa6f8b5bd02f8f524": {
+            "format": "jpg",
+            "id": "40a907d44accc78aa6f8b5bd02f8f524",
+            "name": "frame_00321.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00321.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "12f37922af4affa9d4bc0e07956326dc": {
+            "format": "jpg",
+            "id": "12f37922af4affa9d4bc0e07956326dc",
+            "name": "frame_00320.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00320.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b4394693b568608c61abd00a106abc96": {
+            "format": "jpg",
+            "id": "b4394693b568608c61abd00a106abc96",
+            "name": "frame_00319.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00319.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c89f1ac59c3ee1fccc51130c56799a8f": {
+            "format": "jpg",
+            "id": "c89f1ac59c3ee1fccc51130c56799a8f",
+            "name": "frame_00172.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00172.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "33bac65496748a88c6367b9c917ea86a": {
+            "format": "jpg",
+            "id": "33bac65496748a88c6367b9c917ea86a",
+            "name": "frame_00173.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00173.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f3840dea0a9b47d015eb001d22b94feb": {
+            "format": "jpg",
+            "id": "f3840dea0a9b47d015eb001d22b94feb",
+            "name": "frame_00174.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00174.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "004487c50d1cf58a1e0bb9c0c6924f89": {
+            "format": "jpg",
+            "id": "004487c50d1cf58a1e0bb9c0c6924f89",
+            "name": "frame_00175.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00175.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a86349c98318dd58af9dc5c3e38de2ab": {
+            "format": "jpg",
+            "id": "a86349c98318dd58af9dc5c3e38de2ab",
+            "name": "frame_00176.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00176.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "debd34c913889ae26f94b1edc96b26fc": {
+            "format": "jpg",
+            "id": "debd34c913889ae26f94b1edc96b26fc",
+            "name": "frame_00177.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00177.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "791b71dae4d7c5efa157fc9f084a6065": {
+            "format": "jpg",
+            "id": "791b71dae4d7c5efa157fc9f084a6065",
+            "name": "frame_00178.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00178.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f1536e7576f0baebf38c003f50da7fb9": {
+            "format": "jpg",
+            "id": "f1536e7576f0baebf38c003f50da7fb9",
+            "name": "frame_00179.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00179.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "02adc77e088e298aacb7485adfb8d3d8": {
+            "format": "jpg",
+            "id": "02adc77e088e298aacb7485adfb8d3d8",
+            "name": "frame_00211.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00211.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0387160a81b5a9d1050568db9d5eac10": {
+            "format": "jpg",
+            "id": "0387160a81b5a9d1050568db9d5eac10",
+            "name": "frame_00210.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00210.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f5df4b06cef47930161b7be855dd3782": {
+            "format": "jpg",
+            "id": "f5df4b06cef47930161b7be855dd3782",
+            "name": "frame_00209.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00209.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "01cadae62855984c003a99243c271f1c": {
+            "format": "jpg",
+            "id": "01cadae62855984c003a99243c271f1c",
+            "name": "frame_00180.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00180.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a0f65d77652af7a55e401fe554f6ee25": {
+            "format": "jpg",
+            "id": "a0f65d77652af7a55e401fe554f6ee25",
+            "name": "frame_00181.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00181.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6315ff9f4ace4d94e85796e99c79c3af": {
+            "format": "jpg",
+            "id": "6315ff9f4ace4d94e85796e99c79c3af",
+            "name": "frame_00182.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00182.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "56b4e088bec5169e4cecb166887f7c30": {
+            "format": "jpg",
+            "id": "56b4e088bec5169e4cecb166887f7c30",
+            "name": "frame_00183.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00183.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c30fd8d34bb99df7e06f34fb3039b8fa": {
+            "format": "jpg",
+            "id": "c30fd8d34bb99df7e06f34fb3039b8fa",
+            "name": "frame_00185.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00185.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7507841148965b41f15eb5cce0a67552": {
+            "format": "jpg",
+            "id": "7507841148965b41f15eb5cce0a67552",
+            "name": "frame_00184.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00184.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3fdaa0096bbc7dec1d0663d39d41d1b2": {
+            "format": "jpg",
+            "id": "3fdaa0096bbc7dec1d0663d39d41d1b2",
+            "name": "frame_00186.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00186.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7b3793066d93f88821e6be8b8769dbc1": {
+            "format": "jpg",
+            "id": "7b3793066d93f88821e6be8b8769dbc1",
+            "name": "frame_00208.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00208.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "98b40134f88b7b297e9dbc21e7338db5": {
+            "format": "jpg",
+            "id": "98b40134f88b7b297e9dbc21e7338db5",
+            "name": "frame_00207.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00207.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "02bd176feae1fbe7b97e9c477eb0e9c1": {
+            "format": "jpg",
+            "id": "02bd176feae1fbe7b97e9c477eb0e9c1",
+            "name": "frame_00206.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00206.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "21613821e60a56ab4bb3c61518fe59c4": {
+            "format": "jpg",
+            "id": "21613821e60a56ab4bb3c61518fe59c4",
+            "name": "frame_00187.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00187.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "db49705fa19b7646dc1d4decaff011fc": {
+            "format": "jpg",
+            "id": "db49705fa19b7646dc1d4decaff011fc",
+            "name": "frame_00188.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00188.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b2bfdda88f041676d89e486041dc4355": {
+            "format": "jpg",
+            "id": "b2bfdda88f041676d89e486041dc4355",
+            "name": "frame_00189.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00189.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "559b4589fa2def40288246f0cf1530f8": {
+            "format": "jpg",
+            "id": "559b4589fa2def40288246f0cf1530f8",
+            "name": "frame_00190.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00190.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "aebfca8b5867091275463d52a3d2b7ed": {
+            "format": "jpg",
+            "id": "aebfca8b5867091275463d52a3d2b7ed",
+            "name": "frame_00191.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00191.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a1e0fb2979679bf87f06d59dd176117e": {
+            "format": "jpg",
+            "id": "a1e0fb2979679bf87f06d59dd176117e",
+            "name": "frame_00192.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00192.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "75c855de4e9733a8aa0ff9983b94b25f": {
+            "format": "jpg",
+            "id": "75c855de4e9733a8aa0ff9983b94b25f",
+            "name": "frame_00193.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00193.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5587ddd0b7d6e6040769fa7c849a0fc2": {
+            "format": "jpg",
+            "id": "5587ddd0b7d6e6040769fa7c849a0fc2",
+            "name": "frame_00194.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00194.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "db21c1c86f9edee4626f0ce7205f8474": {
+            "format": "jpg",
+            "id": "db21c1c86f9edee4626f0ce7205f8474",
+            "name": "frame_00195.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00195.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "55da2c0070c384a0f9909c5f70142479": {
+            "format": "jpg",
+            "id": "55da2c0070c384a0f9909c5f70142479",
+            "name": "frame_00196.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00196.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "cd066e4c4d76c045b307d5b1c0e4622a": {
+            "format": "jpg",
+            "id": "cd066e4c4d76c045b307d5b1c0e4622a",
+            "name": "frame_00197.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00197.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "20fd58c14447ffb1e712432485b383f9": {
+            "format": "jpg",
+            "id": "20fd58c14447ffb1e712432485b383f9",
+            "name": "frame_00198.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00198.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "11f82b2fffb09bd441a48c13c63bf751": {
+            "format": "jpg",
+            "id": "11f82b2fffb09bd441a48c13c63bf751",
+            "name": "frame_00212.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00212.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "155b09cf7795ba04ee25f88aaef45653": {
+            "format": "jpg",
+            "id": "155b09cf7795ba04ee25f88aaef45653",
+            "name": "frame_00199.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00199.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b837228ed31f047b8b2f6b6cd817271a": {
+            "format": "jpg",
+            "id": "b837228ed31f047b8b2f6b6cd817271a",
+            "name": "frame_00200.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00200.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c57a36430583dc471eec54a2de35c164": {
+            "format": "jpg",
+            "id": "c57a36430583dc471eec54a2de35c164",
+            "name": "frame_00201.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00201.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8dce5b350b4d38b2a02bfe5ac62e1588": {
+            "format": "jpg",
+            "id": "8dce5b350b4d38b2a02bfe5ac62e1588",
+            "name": "frame_00202.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00202.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "cc9550704da28cb63a5993ecc9859c17": {
+            "format": "jpg",
+            "id": "cc9550704da28cb63a5993ecc9859c17",
+            "name": "frame_00203.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00203.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8600be5537bfad514be5acee13330486": {
+            "format": "jpg",
+            "id": "8600be5537bfad514be5acee13330486",
+            "name": "frame_00204.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00204.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "acdebb4486c5f85fb9e1e4f192810add": {
+            "format": "jpg",
+            "id": "acdebb4486c5f85fb9e1e4f192810add",
+            "name": "frame_00205.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00205.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "81b5fa1812a4c69faa26c71c61267ecb": {
+            "format": "jpg",
+            "id": "81b5fa1812a4c69faa26c71c61267ecb",
+            "name": "frame_00213.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00213.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b41b775f4489e3e94bc216fa5898a601": {
+            "format": "jpg",
+            "id": "b41b775f4489e3e94bc216fa5898a601",
+            "name": "frame_00214.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00214.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e643efa5895c5e1586cb8ac26c52647f": {
+            "format": "jpg",
+            "id": "e643efa5895c5e1586cb8ac26c52647f",
+            "name": "frame_00215.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00215.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "194051a96579db45906fbf9958e0e74e": {
+            "format": "jpg",
+            "id": "194051a96579db45906fbf9958e0e74e",
+            "name": "frame_00216.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00216.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ef299ff386e27f0c18ce4c6f40592564": {
+            "format": "jpg",
+            "id": "ef299ff386e27f0c18ce4c6f40592564",
+            "name": "frame_00217.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00217.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "556291f81041358af928f1dd72c5492f": {
+            "format": "jpg",
+            "id": "556291f81041358af928f1dd72c5492f",
+            "name": "frame_00218.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00218.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "527096334fbd98d137dc5ff96688263f": {
+            "format": "jpg",
+            "id": "527096334fbd98d137dc5ff96688263f",
+            "name": "frame_00219.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00219.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ee9a2daf350d5d27aadfa04cb44b1134": {
+            "format": "jpg",
+            "id": "ee9a2daf350d5d27aadfa04cb44b1134",
+            "name": "frame_00220.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00220.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "58a47bde6120ec7fdd47249f547f4fc4": {
+            "format": "jpg",
+            "id": "58a47bde6120ec7fdd47249f547f4fc4",
+            "name": "frame_00221.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00221.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a340cb20eb3b9b9ed78804f9de61b0c3": {
+            "format": "jpg",
+            "id": "a340cb20eb3b9b9ed78804f9de61b0c3",
+            "name": "frame_00222.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00222.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9221f54e8ee35f368c099ab021dabc63": {
+            "format": "jpg",
+            "id": "9221f54e8ee35f368c099ab021dabc63",
+            "name": "frame_00223.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00223.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "eb2eefaaee24091e9a82cc71206ea95e": {
+            "format": "jpg",
+            "id": "eb2eefaaee24091e9a82cc71206ea95e",
+            "name": "frame_00224.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00224.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8837bbcdd181f6e52203207b1f531ab9": {
+            "format": "jpg",
+            "id": "8837bbcdd181f6e52203207b1f531ab9",
+            "name": "frame_00225.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00225.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "00deba47b4a1cfdd2101750b2321b852": {
+            "format": "jpg",
+            "id": "00deba47b4a1cfdd2101750b2321b852",
+            "name": "frame_00226.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00226.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d01b45596ffb6d8c5e7984312771bbc3": {
+            "format": "jpg",
+            "id": "d01b45596ffb6d8c5e7984312771bbc3",
+            "name": "frame_00227.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00227.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "95b8b8a73a2212ecf9d92d9970441b33": {
+            "format": "jpg",
+            "id": "95b8b8a73a2212ecf9d92d9970441b33",
+            "name": "frame_00228.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00228.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4e7284802d5c440e813df5bc9732f51b": {
+            "format": "jpg",
+            "id": "4e7284802d5c440e813df5bc9732f51b",
+            "name": "frame_00229.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00229.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c214662b286ff1d6fe02319ff0639832": {
+            "format": "jpg",
+            "id": "c214662b286ff1d6fe02319ff0639832",
+            "name": "frame_00230.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00230.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "02de7557536814ff32ebf5cea1c4b748": {
+            "format": "jpg",
+            "id": "02de7557536814ff32ebf5cea1c4b748",
+            "name": "frame_00231.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00231.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1238d0db34d76e5197af93da5757815d": {
+            "format": "jpg",
+            "id": "1238d0db34d76e5197af93da5757815d",
+            "name": "frame_00232.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00232.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "09f8955eccc1db6d44a3591d373b1112": {
+            "format": "jpg",
+            "id": "09f8955eccc1db6d44a3591d373b1112",
+            "name": "frame_00233.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00233.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "65874b394f4e1343ffb58a0c65b20d75": {
+            "format": "jpg",
+            "id": "65874b394f4e1343ffb58a0c65b20d75",
+            "name": "frame_00234.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00234.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e2eb23b3729f552996b326e0293b8d06": {
+            "format": "jpg",
+            "id": "e2eb23b3729f552996b326e0293b8d06",
+            "name": "frame_00235.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00235.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1ac9ec00d4840e77b1218a486d2888c1": {
+            "format": "jpg",
+            "id": "1ac9ec00d4840e77b1218a486d2888c1",
+            "name": "frame_00236.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00236.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fbd72e1a4412f13b5c92d1ef914192ee": {
+            "format": "jpg",
+            "id": "fbd72e1a4412f13b5c92d1ef914192ee",
+            "name": "frame_00237.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00237.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "efb4c70b90ed6dbf69ff6997079409f4": {
+            "format": "jpg",
+            "id": "efb4c70b90ed6dbf69ff6997079409f4",
+            "name": "frame_00238.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00238.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "549f8ec0d45b0059be2dd02af8ffa975": {
+            "format": "jpg",
+            "id": "549f8ec0d45b0059be2dd02af8ffa975",
+            "name": "frame_00239.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00239.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f9e92dde70c16695fe7f0282930573ed": {
+            "format": "jpg",
+            "id": "f9e92dde70c16695fe7f0282930573ed",
+            "name": "frame_00240.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00240.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1635c73d0df74b226bf1eb53fe8362d5": {
+            "format": "jpg",
+            "id": "1635c73d0df74b226bf1eb53fe8362d5",
+            "name": "frame_00241.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00241.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e3e124297ab18d8a987a90d2ac72c9f7": {
+            "format": "jpg",
+            "id": "e3e124297ab18d8a987a90d2ac72c9f7",
+            "name": "frame_00242.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00242.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "dbe0b28ec04c6e7bbe40e83ba06df345": {
+            "format": "jpg",
+            "id": "dbe0b28ec04c6e7bbe40e83ba06df345",
+            "name": "frame_00243.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00243.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b4f9762ec76217d5a63770e69f3e1bae": {
+            "format": "jpg",
+            "id": "b4f9762ec76217d5a63770e69f3e1bae",
+            "name": "frame_00244.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00244.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "05d52051772d0ac7db02e60fd27a44a8": {
+            "format": "jpg",
+            "id": "05d52051772d0ac7db02e60fd27a44a8",
+            "name": "frame_00245.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00245.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "873775ed69dd0dcd0a4e99182f2c29e9": {
+            "format": "jpg",
+            "id": "873775ed69dd0dcd0a4e99182f2c29e9",
+            "name": "frame_00246.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00246.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b3ef229f3e52933662ece7160747d634": {
+            "format": "jpg",
+            "id": "b3ef229f3e52933662ece7160747d634",
+            "name": "frame_00247.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00247.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1106c6eb4ec387ee9f8983394b5ece4e": {
+            "format": "jpg",
+            "id": "1106c6eb4ec387ee9f8983394b5ece4e",
+            "name": "frame_00248.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00248.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b4fa18680a82bf3b8ab57ce94d1a08f1": {
+            "format": "jpg",
+            "id": "b4fa18680a82bf3b8ab57ce94d1a08f1",
+            "name": "frame_00249.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00249.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9cb1145375e21fbcbd2556eeb2c2283a": {
+            "format": "jpg",
+            "id": "9cb1145375e21fbcbd2556eeb2c2283a",
+            "name": "frame_00250.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00250.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "46d2a6f421b9bfa1fcdbcc50235d27a2": {
+            "format": "jpg",
+            "id": "46d2a6f421b9bfa1fcdbcc50235d27a2",
+            "name": "frame_00251.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00251.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "434fe70e77a7d03be7c702ca7b433f16": {
+            "format": "jpg",
+            "id": "434fe70e77a7d03be7c702ca7b433f16",
+            "name": "frame_00252.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00252.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c6e27a04764ff38e489c0c41a6d5659e": {
+            "format": "jpg",
+            "id": "c6e27a04764ff38e489c0c41a6d5659e",
+            "name": "frame_00253.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00253.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "783044b41a1812023959289da1b7c864": {
+            "format": "jpg",
+            "id": "783044b41a1812023959289da1b7c864",
+            "name": "frame_00300.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00300.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "46a41100d33f142df4b6461189ce28e0": {
+            "format": "jpg",
+            "id": "46a41100d33f142df4b6461189ce28e0",
+            "name": "frame_00299.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00299.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "af823f0c1f4e31d744a24f0fd6bd9652": {
+            "format": "jpg",
+            "id": "af823f0c1f4e31d744a24f0fd6bd9652",
+            "name": "frame_00298.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00298.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ee73fce39763c151d0026147ca2a0940": {
+            "format": "jpg",
+            "id": "ee73fce39763c151d0026147ca2a0940",
+            "name": "frame_00254.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00254.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6359a7d86737d1ee1961b715c1ea460d": {
+            "format": "jpg",
+            "id": "6359a7d86737d1ee1961b715c1ea460d",
+            "name": "frame_00255.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00255.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b30df7572abe10d9672c7a4cc0102fa7": {
+            "format": "jpg",
+            "id": "b30df7572abe10d9672c7a4cc0102fa7",
+            "name": "frame_00256.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00256.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "bf60485e91b52053d9f353490751644b": {
+            "format": "jpg",
+            "id": "bf60485e91b52053d9f353490751644b",
+            "name": "frame_00257.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00257.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8596de873ac370d77b9794acadc41b56": {
+            "format": "jpg",
+            "id": "8596de873ac370d77b9794acadc41b56",
+            "name": "frame_00258.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00258.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6ba2ad68c6c81508bb249b8010e4a466": {
+            "format": "jpg",
+            "id": "6ba2ad68c6c81508bb249b8010e4a466",
+            "name": "frame_00297.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00297.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "bf8e7d33cb18ae81c6ea89957c8ea2ac": {
+            "format": "jpg",
+            "id": "bf8e7d33cb18ae81c6ea89957c8ea2ac",
+            "name": "frame_00259.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00259.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "555518d54dbee797f7354a7d76189e95": {
+            "format": "jpg",
+            "id": "555518d54dbee797f7354a7d76189e95",
+            "name": "frame_00296.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00296.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8b2f0dc6055567175236b5ff8ccb8455": {
+            "format": "jpg",
+            "id": "8b2f0dc6055567175236b5ff8ccb8455",
+            "name": "frame_00295.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00295.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9ba20e711e6e983c74ca4401272b3e72": {
+            "format": "jpg",
+            "id": "9ba20e711e6e983c74ca4401272b3e72",
+            "name": "frame_00260.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00260.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "38ec46d82e6eaa228fad1a261087a038": {
+            "format": "jpg",
+            "id": "38ec46d82e6eaa228fad1a261087a038",
+            "name": "frame_00261.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00261.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1cc7a094d38f3033d039d70729a1d79d": {
+            "format": "jpg",
+            "id": "1cc7a094d38f3033d039d70729a1d79d",
+            "name": "frame_00262.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00262.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "60733a369d5be557a3bf8d2fd1f6fc9e": {
+            "format": "jpg",
+            "id": "60733a369d5be557a3bf8d2fd1f6fc9e",
+            "name": "frame_00263.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00263.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "30e629a06d5a6347382a9e0334c7c067": {
+            "format": "jpg",
+            "id": "30e629a06d5a6347382a9e0334c7c067",
+            "name": "frame_00294.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00294.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "876886392674a86584e1855039e77343": {
+            "format": "jpg",
+            "id": "876886392674a86584e1855039e77343",
+            "name": "frame_00264.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00264.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9851d456f216be93bf7bdf08450058a2": {
+            "format": "jpg",
+            "id": "9851d456f216be93bf7bdf08450058a2",
+            "name": "frame_00265.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00265.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0bff70acc6e138f6c32d71bfd89cd301": {
+            "format": "jpg",
+            "id": "0bff70acc6e138f6c32d71bfd89cd301",
+            "name": "frame_00293.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00293.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a404b7edc42bde0c489552295b85de62": {
+            "format": "jpg",
+            "id": "a404b7edc42bde0c489552295b85de62",
+            "name": "frame_00266.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00266.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1dbc0cd9abcf54aa54f390cff0abd613": {
+            "format": "jpg",
+            "id": "1dbc0cd9abcf54aa54f390cff0abd613",
+            "name": "frame_00267.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00267.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0865ce23072e3295878a920712440326": {
+            "format": "jpg",
+            "id": "0865ce23072e3295878a920712440326",
+            "name": "frame_00268.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00268.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "657ab02a2b745f3eaf14e025a103beae": {
+            "format": "jpg",
+            "id": "657ab02a2b745f3eaf14e025a103beae",
+            "name": "frame_00269.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00269.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2fe78e6458c324d7143a359db26daca3": {
+            "format": "jpg",
+            "id": "2fe78e6458c324d7143a359db26daca3",
+            "name": "frame_00270.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00270.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9bbd7fe641cf431698e77969cd663880": {
+            "format": "jpg",
+            "id": "9bbd7fe641cf431698e77969cd663880",
+            "name": "frame_00271.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00271.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c5c6592dbc7faac15e6cf43c0f3cb57c": {
+            "format": "jpg",
+            "id": "c5c6592dbc7faac15e6cf43c0f3cb57c",
+            "name": "frame_00272.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00272.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c3d91061e7dd44d71edd2a5a1044b1a9": {
+            "format": "jpg",
+            "id": "c3d91061e7dd44d71edd2a5a1044b1a9",
+            "name": "frame_00273.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00273.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3f2461c35781bfe6c265e3f2861cd086": {
+            "format": "jpg",
+            "id": "3f2461c35781bfe6c265e3f2861cd086",
+            "name": "frame_00274.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00274.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a7c62348aed2961eba9860465b233a51": {
+            "format": "jpg",
+            "id": "a7c62348aed2961eba9860465b233a51",
+            "name": "frame_00275.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00275.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ab11a1c27ce676b15e77fba106c8edeb": {
+            "format": "jpg",
+            "id": "ab11a1c27ce676b15e77fba106c8edeb",
+            "name": "frame_00276.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00276.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1e1473fe42519bfe8cf8330417ed62a7": {
+            "format": "jpg",
+            "id": "1e1473fe42519bfe8cf8330417ed62a7",
+            "name": "frame_00277.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00277.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6a19f50b2528814ace9899aa6bf9089b": {
+            "format": "jpg",
+            "id": "6a19f50b2528814ace9899aa6bf9089b",
+            "name": "frame_00278.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00278.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "850d0557d67893d7ec2f3dc3e1b915cb": {
+            "format": "jpg",
+            "id": "850d0557d67893d7ec2f3dc3e1b915cb",
+            "name": "frame_00279.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00279.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "25ea5f1f77fb3adc8d3ceccc67330732": {
+            "format": "jpg",
+            "id": "25ea5f1f77fb3adc8d3ceccc67330732",
+            "name": "frame_00280.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00280.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1ed221c76d8813941e1b9d09c896f598": {
+            "format": "jpg",
+            "id": "1ed221c76d8813941e1b9d09c896f598",
+            "name": "frame_00281.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00281.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7e817a9601a82dfce2661813e507eeca": {
+            "format": "jpg",
+            "id": "7e817a9601a82dfce2661813e507eeca",
+            "name": "frame_00282.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00282.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c807b82c039bd9aa0c52f9b2f3c3b6d0": {
+            "format": "jpg",
+            "id": "c807b82c039bd9aa0c52f9b2f3c3b6d0",
+            "name": "frame_00283.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00283.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ebb2cd0ea40ff290c7b520ba6abf8eff": {
+            "format": "jpg",
+            "id": "ebb2cd0ea40ff290c7b520ba6abf8eff",
+            "name": "frame_00284.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00284.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4269172ed178d1799b8e17b35c4819eb": {
+            "format": "jpg",
+            "id": "4269172ed178d1799b8e17b35c4819eb",
+            "name": "frame_00286.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00286.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e9284082386821f943942b5fe950ad93": {
+            "format": "jpg",
+            "id": "e9284082386821f943942b5fe950ad93",
+            "name": "frame_00285.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00285.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "651317da3c4368b112636b5ca9daa0b7": {
+            "format": "jpg",
+            "id": "651317da3c4368b112636b5ca9daa0b7",
+            "name": "frame_00287.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00287.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b51e3a91b02e389e88d34bf59d75ec27": {
+            "format": "jpg",
+            "id": "b51e3a91b02e389e88d34bf59d75ec27",
+            "name": "frame_00288.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00288.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "477d14c057bc3393048a77d9377a9852": {
+            "format": "jpg",
+            "id": "477d14c057bc3393048a77d9377a9852",
+            "name": "frame_00290.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00290.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d335268e0c1ddc78c7c859bc9dbf0324": {
+            "format": "jpg",
+            "id": "d335268e0c1ddc78c7c859bc9dbf0324",
+            "name": "frame_00289.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00289.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b33b17c18c94e24ce24d8558760448af": {
+            "format": "jpg",
+            "id": "b33b17c18c94e24ce24d8558760448af",
+            "name": "frame_00291.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00291.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        },
+        "99d4c2f8c36804d08962f4994fc3a63a": {
+            "format": "jpg",
+            "id": "99d4c2f8c36804d08962f4994fc3a63a",
+            "name": "frame_00292.jpg",
+            "path": "file:C:/Users/chen3/Desktop/ok/datasets/goalkeeper/all_frames/frame_00292.jpg",
+            "size": {
+                "width": 1260,
+                "height": 1344
+            },
+            "state": 2,
+            "type": 1
+        }
+    }
+}
