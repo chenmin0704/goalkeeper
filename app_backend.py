@@ -26,7 +26,7 @@ from flask_cors import CORS
 from werkzeug.utils import secure_filename
 
 # ==================== 配置 ====================
-MODEL_PATH = r"C:\Users\chen3\Desktop\ok\新建文件夹\runs\goalkeeper_pose\weights\best.pt"
+MODEL_PATH = r"C:\Users\chen3\Desktop\ok\best.pt"
 CONF_THRESHOLD = 0.3
 # =============================================
 
@@ -255,7 +255,11 @@ def health():
 @app.route('/api/predict', methods=['POST'])
 def predict_image():
     if not model_loaded:
-        return jsonify({'error': '模型未加载，请检查 MODEL_PATH'}), 500
+        return jsonify({
+            'error': '模型未加载',
+            'detail': '请检查模型路径是否正确，或重启后端服务',
+            'model_path': MODEL_PATH
+        }), 500
     if 'image' not in request.files:
         return jsonify({'error': '请上传图像文件（字段名: image）'}), 400
 
@@ -263,6 +267,7 @@ def predict_image():
     if file.filename == '':
         return jsonify({'error': '文件名为空'}), 400
 
+    tmp_path = None
     try:
         ext = os.path.splitext(secure_filename(file.filename))[1] or '.jpg'
         with tempfile.NamedTemporaryFile(suffix=ext, delete=False) as tmp:
@@ -271,8 +276,11 @@ def predict_image():
 
         img = cv2.imread(tmp_path)
         if img is None:
-            os.unlink(tmp_path)
-            return jsonify({'error': '无法读取图像'}), 400
+            return jsonify({
+                'error': '无法读取图像',
+                'detail': '图像格式不支持或文件已损坏',
+                'filename': file.filename
+            }), 400
 
         img_h, img_w = img.shape[:2]
         results = model(tmp_path, conf=CONF_THRESHOLD)
@@ -280,8 +288,11 @@ def predict_image():
         keypoints = extract_keypoints(result)
 
         if keypoints is None:
-            os.unlink(tmp_path)
-            return jsonify({'error': '未检测到守门员'}), 404
+            return jsonify({
+                'error': '未检测到守门员',
+                'detail': '图像中没有检测到守门员，可能原因：1) 画面中无守门员 2) 画面模糊 3) 角度不合适',
+                'suggestion': '尝试更换更清晰的守门员图片'
+            }), 404
 
         bbox = compute_bbox(keypoints, img_w, img_h)
         for kp in keypoints:
@@ -292,53 +303,111 @@ def predict_image():
         direction, dir_conf = predict_direction(keypoints)
         coverage, cov_desc = analyze_coverage(keypoints, img_w, img_h)
         body_angle = compute_body_angle(keypoints)
-        os.unlink(tmp_path)
 
         return jsonify({
-            'pose': pose, 'pose_conf': round(pose_conf, 4),
-            'direction': direction, 'direction_conf': round(dir_conf, 4),
-            'coverage': coverage, 'coverage_desc': cov_desc,
-            'detail': detail, 'body_angle': body_angle,
-            'keypoints': keypoints, 'bbox': bbox,
+            'success': True,
+            'pose': pose,
+            'pose_conf': round(pose_conf, 4),
+            'direction': direction,
+            'direction_conf': round(dir_conf, 4),
+            'coverage': coverage,
+            'coverage_desc': cov_desc,
+            'detail': detail,
+            'body_angle': body_angle,
+            'keypoints': keypoints,
+            'bbox': bbox,
             'image_size': {'width': img_w, 'height': img_h}
         })
+
     except Exception as e:
-        return jsonify({'error': str(e)}), 500
+        import traceback
+        return jsonify({
+            'error': '图像分析失败',
+            'detail': str(e),
+            'traceback': traceback.format_exc()
+        }), 500
+
+    finally:
+        if tmp_path is not None and os.path.exists(tmp_path):
+            try:
+                os.unlink(tmp_path)
+            except:
+                pass
 
 
 @app.route('/api/predict_video', methods=['POST'])
 def predict_video():
     if not model_loaded:
-        return jsonify({'error': '模型未加载'}), 500
+        return jsonify({'error': '模型未加载', 'detail': '请检查模型路径是否正确，或重启后端服务'}), 500
     if 'video' not in request.files:
         return jsonify({'error': '请上传视频文件（字段名: video）'}), 400
 
     file = request.files['video']
+    tmp_path = None
+    cap = None
+
     try:
+        # 检查文件是否为空
+        if file.filename == '':
+            return jsonify({'error': '文件名为空', 'detail': '请选择有效的视频文件'}), 400
+
+        # 获取文件扩展名
         ext = os.path.splitext(secure_filename(file.filename))[1] or '.mp4'
+
+        # 保存临时文件
         with tempfile.NamedTemporaryFile(suffix=ext, delete=False) as tmp:
             file.save(tmp.name)
             tmp_path = tmp.name
+            print(f"临时视频文件: {tmp_path}, 大小: {os.path.getsize(tmp_path) / 1024 / 1024:.2f} MB")
 
+        # 打开视频
         cap = cv2.VideoCapture(tmp_path)
-        fps = int(cap.get(cv2.CAP_PROP_FPS))
+        if not cap.isOpened():
+            return jsonify({
+                'error': '无法打开视频文件',
+                'detail': '视频格式可能不支持，请尝试转换为 MP4 格式 (H.264 编码)',
+                'filename': file.filename
+            }), 400
+
+        fps = cap.get(cv2.CAP_PROP_FPS)
         total_frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
+        width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
+        height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
+
+        print(f"视频信息: {width}x{height}, {fps}fps, {total_frames}帧, 约{total_frames / fps:.1f}秒")
+
+        # 检查视频参数是否有效
+        if fps <= 0 or total_frames <= 0:
+            return jsonify({
+                'error': '视频参数异常',
+                'detail': f'fps={fps}, total_frames={total_frames}, 视频可能已损坏',
+                'filename': file.filename
+            }), 400
 
         frames_results = []
         frame_idx = 0
-        # ========== 修改：逐帧分析，不跳过任何帧 ==========
-        sample_interval = 1
+        sample_interval = 1  # 逐帧分析
 
         while True:
             ret, frame = cap.read()
             if not ret:
                 break
+
             frame_idx += 1
+
+            # 采样间隔
             if frame_idx % sample_interval != 0:
                 continue
 
             img_h, img_w = frame.shape[:2]
-            results = model(frame, conf=CONF_THRESHOLD, verbose=False)
+
+            # 模型推理
+            try:
+                results = model(frame, conf=CONF_THRESHOLD, verbose=False)
+            except Exception as model_error:
+                print(f"第{frame_idx}帧模型推理失败: {str(model_error)}")
+                continue  # 跳过这一帧，继续下一帧
+
             result = results[0]
             keypoints = extract_keypoints(result)
 
@@ -349,28 +418,69 @@ def predict_video():
                 pose, pose_conf, detail = classify_pose(keypoints)
                 direction, dir_conf = predict_direction(keypoints)
                 frames_results.append({
-                    'frame': frame_idx, 'time': round(frame_idx / fps, 2),
-                    'pose': pose, 'pose_conf': round(pose_conf, 4),
-                    'direction': direction, 'direction_conf': round(dir_conf, 4),
+                    'frame': frame_idx,
+                    'time': round(frame_idx / fps, 2),
+                    'pose': pose,
+                    'pose_conf': round(pose_conf, 4),
+                    'direction': direction,
+                    'direction_conf': round(dir_conf, 4),
                     'body_angle': compute_body_angle(keypoints),
                     'keypoints': keypoints
                 })
 
-        cap.release()
-        os.unlink(tmp_path)
+        # 检查是否有分析结果
+        if not frames_results:
+            return jsonify({
+                'error': '未检测到守门员',
+                'detail': '视频中没有检测到守门员姿态，可能原因：1) 视频中无守门员 2) 画面模糊 3) 置信度阈值太高',
+                'suggestion': '尝试降低 CONF_THRESHOLD 或更换更清晰的视频',
+                'video_info': {
+                    'filename': file.filename,
+                    'width': width,
+                    'height': height,
+                    'fps': round(fps, 2),
+                    'total_frames': total_frames,
+                    'duration': round(total_frames / fps, 2) if fps > 0 else 0,
+                    'analyzed_frames': frame_idx
+                }
+            }), 404
 
+        # 统计姿态分布
         from collections import Counter
         pose_counts = Counter(f['pose'] for f in frames_results)
+
         return jsonify({
+            'success': True,
             'total_frames': total_frames,
             'analyzed_frames': len(frames_results),
-            'fps': fps,
+            'fps': round(fps, 2),
             'pose_distribution': dict(pose_counts),
             'frames': frames_results
         })
-    except Exception as e:
-        return jsonify({'error': str(e)}), 500
 
+    except Exception as e:
+        import traceback
+        error_trace = traceback.format_exc()
+        print(f"视频分析异常: {str(e)}")
+        print(error_trace)
+
+        return jsonify({
+            'error': '视频分析失败',
+            'detail': str(e),
+            'traceback': error_trace,
+            'suggestion': '请检查视频格式是否为 MP4 (H.264编码)，或尝试更短视频'
+        }), 500
+
+    finally:
+        # 确保资源释放
+        if cap is not None:
+            cap.release()
+        if tmp_path is not None and os.path.exists(tmp_path):
+            try:
+                os.unlink(tmp_path)
+                print(f"临时文件已清理: {tmp_path}")
+            except Exception as cleanup_error:
+                print(f"清理临时文件失败: {cleanup_error}")
 
 # ==================== 前端静态文件服务 ====================
 
